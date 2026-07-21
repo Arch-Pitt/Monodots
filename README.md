@@ -36,10 +36,10 @@ And finally, reboot the system:
 * Preconfigured **Kitty**, **Waybar**, **Rofi** and **Swaync**
 * **Fish shell** for a faster terminal
 * Lockscreen with **Hyprlock**
-* Basic firewall and networking setup with **UFW** and **networkmanager**
+* Basic firewall and networking setup with **UFW** and **NetworkManager**
 * **CachyOS Gaming Meta** and **Gamemode** for seamless gaming compatibility and required libraries.
 * Custom scripts like **Cleaner** and **Wallpicker**
-* **Orchis Grey Dark** GTK theme and **Papirus** icon theme for minimal UI*
+* **Orchis Grey Dark** GTK theme and **Papirus** icon theme for a clean UI.
 
 ## Preview
 ![Desktop](/previews/desktop.png)
