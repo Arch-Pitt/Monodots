@@ -1,0 +1,112 @@
+{
+    "layer": "top",
+    "position": "left",
+    "width": 40,
+    "spacing": 2,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "modules-left": [
+        "custom/distro",
+        "cpu",
+        "memory",
+        "custom/separator",
+        "tray"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "network",
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "custom/separator",
+        "clock"
+    ],
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+			"active": "󰪥",
+			"default": ""
+		},
+        "persistent-workspaces": {
+            "*": 3
+        }
+    },
+    "tray": {
+        "spacing": 10,
+        "icon-size": 16
+    },
+    "clock": {
+        "format": "{:%H\n%M}",
+        "format-alt": "{:%d\n%m\n%y}",
+        "tooltip-format": "{:%d-%m-%Y}"
+    },
+    "backlight": {
+        "format": "󰃠",
+        "tooltip-format": "Brightness: {percent}%",
+        "on-click": "killall hyprsunset || hyprsunset"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}",
+        "format-charging": "",
+        "format-plugged": "",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tooltip-format": "Battery: {capacity}%",
+        "on-click": ""
+    },
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "⚠",
+        "tooltip-format": "Network: {essid} | {ifname}",
+        "on-click": "nm-connection-editor"
+    },
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "tooltip-format": "Volume {volume}%",
+        "on-click": "pavucontrol"
+    },
+    "cpu": {
+        "format": "",
+        "tooltip-format": "CPU: {usage}%",
+        "on-click": "kitty -e btop"
+    },
+    "memory": {
+        "format": "",
+        "tooltip-format": "RAM: {used}GB / {total}GB",
+        "on-click": "kitty -e btop"
+    },
+    "custom/distro": {
+        "format": "",
+        "tooltip-format": "Distro"
+    },
+    "custom/separator": {
+        "format": "---",
+        "tooltip": false
+    }
+}

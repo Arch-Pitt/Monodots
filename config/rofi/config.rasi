@@ -1,0 +1,107 @@
+* {
+    font: "JetBrainsMono Nerd Font Propo 13";
+}
+
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: " ";
+    drun-display-format: "{name}";
+}
+
+window {
+    transparency: "real";
+    width: 500px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid;
+    border-color: rgba(68, 68, 68, 0.3);
+    padding: 14px;
+}
+
+mainbox {
+    spacing: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    children: ["inputbar", "listview", "message"];
+}
+
+inputbar {
+    spacing: 10px;
+    background-color: transparent;
+    text-color: #FFFFFFFF;
+    children: ["prompt", "entry"];
+    padding: 2px 4px;
+}
+
+prompt {
+    background-color: transparent;
+    text-color: #FFFFFFFF;
+}
+
+entry {
+    background-color: transparent;
+    text-color: #FFFFFFFF;
+    placeholder: "Search apps...";
+    placeholder-color: #777777FF;
+}
+
+listview {
+    columns: 1;
+    lines: 6;
+    fixed-height: true;
+    fixed-columns: true;
+    cycle: false;
+    scrollbar: false;
+    border: 0px solid;
+    background-color: transparent;
+}
+
+element {
+    spacing: 10px;
+    margin: 2px 0px;
+    padding: 6px 10px;
+    border: 0px solid;
+    border-radius: 4px;
+    background-color: transparent;
+    text-color: #FFFFFFFF;
+}
+
+element-icon {
+    background-color: transparent;
+    text-color: inherit;
+    size: 22px;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: #FFFFFFFF;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color: #FFFFFFFF;
+}
+
+element selected.normal {
+    background-color: #FFFFFFFF;
+    text-color: #000000FF;
+    border-radius: 4px;
+}
+
+element selected.active {
+    background-color: #FFFFFFFF;
+    text-color: #000000FF;
+}
+
+message {
+    background-color: transparent;
+    border: 0px solid;
+}
