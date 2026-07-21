@@ -49,6 +49,7 @@ And finally, reboot the system:
 ![Swaync](/previews/swaync.png)
 ![Terminal](/previews/terminal.png)
 ![GTK](/previews/gtktheme.png)
+> Any wallpaper used in preview is **not** include in dotfiles, in wallpapers folder you will only have a black wallpaper to test wallpicker script. 
 
 ## Keybindings
 > Main modifier: `SUPER` (Windows key)
@@ -95,5 +96,5 @@ And finally, reboot the system:
 ---
 
 ## Notes
-* This setup assumes a **simple Arch installation**, so some things may be missing, such as GPU drivers
-* Feel free to modify the script to fit your needs
+* This setup assumes a **simple Arch installation**, so some things may be missing, such as GPU drivers.
+* Feel free to modify the script to fit your needs.
