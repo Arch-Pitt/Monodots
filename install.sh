@@ -3,18 +3,12 @@
 set -e
 
 cat << 'EOF'
-___________      .__  .__               
-\_   _____/ ____ |  | |__| ______ ____  
- |    __)__/ ___\|  | |  |/  ___// __ \ 
- |        \  \___|  |_|  |\___ \\  ___/ 
-/_______  /\___  >____/__/____  >\___  >
-        \/     \/             \/     \/ 
-________          __                    
-\______ \   _____/  |_  ______          
- |    |  \ /  _ \   __\/  ___/          
- |    `   (  <_> )  |  \___ \           
-/_______  /\____/|__| /____  >          
-        \/                 \/           													
+  __  __                       _       _       
+ |  \/  | ___  _ __   ___   __| | ___ | |_ ___ 
+ | |\/| |/ _ \| '_ \ / _ \ / _` |/ _ \| __/ __|
+ | |  | | (_) | | | | (_) | (_| | (_) | |_\__ \
+ |_|  |_|\___/|_| |_|\___/ \__,_|\___/ \__|___/
+
 EOF
 
 echo "System update"
@@ -129,10 +123,10 @@ else
 fi
 
 echo "Copying SDDM theme and configuration..."
-theme="$HOME/EclipseDots/sddm/monochrome"
+theme="$HOME/Monodots/sddm/monochrome"
 themedir="/usr/share/sddm/themes/"
 
-configfile="$HOME/EclipseDots/sddm/sddm.conf"
+configfile="$HOME/Monodots/sddm/sddm.conf"
 configdir="/etc/"
 
 if sudo cp -r "$theme" "$themedir" && sudo cp "$configfile" "$configdir"; then
