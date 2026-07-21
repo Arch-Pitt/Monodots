@@ -49,7 +49,7 @@ And finally, reboot the system:
 ![Swaync](/previews/swaync.png)
 ![Terminal](/previews/terminal.png)
 ![GTK](/previews/gtktheme.png)
-> Any wallpaper used in preview is **not** include in dotfiles, in wallpapers folder you will only have a black wallpaper to test wallpicker script. 
+> Any wallpaper used in preview is **not** included in the dotfiles. In the wallpapers folder you will only have by default a black wallpaper to test wallpicker script. 
 
 ## Keybindings
 > Main modifier: `SUPER` (Windows key)
