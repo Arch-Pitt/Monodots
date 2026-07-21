@@ -32,7 +32,6 @@ And finally, reboot the system:
    sudo reboot
    ```
 
-
 ## Features
 * Preconfigured **Kitty**, **Waybar**, **Rofi** and **Swaync**
 * **Fish shell** for a faster terminal
@@ -51,116 +50,6 @@ And finally, reboot the system:
 ![Terminal](/previews/terminal.png)
 ![GTK](/previews/gtktheme.png)
 
-## What the install script does
-
-### System update
-* Updates all system packages using `pacman`
-
-### Fonts
-Installs:
-* ttf-dejavu
-* noto-fonts
-* noto-fonts-emoji
-* ttf-jetbrains-mono-nerd
-
-### Media support
-Installs:
-* gst-libav
-* gst-plugins-bad
-* gst-plugins-ugly
-* gst-plugins-pipewire
-* ffmpeg
-* gstreamer
-
-### Hyprland ecosystem
-Installs:
-* hyprland
-* kitty
-* fish
-* waybar
-* rofi-wayland
-* awww
-* nwg-look
-* hyprshot
-* hypridle
-* hyprsunset
-* hyprlock
-* swaync
-
-### Portals
-Installs:
-* xdg-desktop-portal
-* xdg-desktop-portal-hyprland
-
-### System utilities
-Installs:
-* fastfetch
-* vim
-* nano
-* unzip / zip / unrar / p7zip
-* nemo
-* btop
-* gvfs
-* gvfs-mtp
-* gvfs-afc
-* pipewire
-* pipewire-audio
-* pipewire-alsa
-* pipewire-pulse
-* wireplumber
-* usbutils
-* android-udev
-* gamemode
-* cachyos-gaming-meta
-* sddm
-* powerprofilesctl
-
-### Network and system
-Installs and enables:
-* networkmanager
-* ufw
-* polkit-gnome
-
-### Applications
-Installs:
-* firefox
-* pavucontrol
-* file-roller
-* nemo-fileroller
-* mpv
-* vscodium
-
-### Wine support
-Installs:
-* wine
-* wine-gecko
-* wine-mono
-* winetricks
-
-### User directories
-Creates:
-
-```
-~/Documents
-~/Downloads
-~/Games
-~/Music
-~/Public
-~/Templates
-~/Videos
-~/.themes
-~/.script
-~/.config
-```
-
-### Services
-Enables:
-* NetworkManager
-* ufw
-* sddm
-
----
-
 ## Keybindings
 > Main modifier: `SUPER` (Windows key)
 
@@ -170,16 +59,13 @@ Enables:
 | SUPER + Q | Open terminal |
 | SUPER + E | Open file manager |
 | SUPER + R | Open app launcher |
-| SUPER + C | Close active window |
-| SUPER + V | Toggle floating |
-| SUPER + F | Fullscreen |
 | SUPER + L | Lockscreen |
 | SUPER + P | Power menu |
 | SUPER + N | Notification center |
 | SUPER + H | Toggle waybar |
 | SUPER + SHIFT + W | Wallpicker |
 | SUPER + SHIFT + S | Screenshot (region) |
-| SUPER + SHIFT + P | Screenshot (output) |
+| Printscreen | Screenshot (output) |
 | SUPER + F1 | Toggle mute |
 | SUPER + F2 | Increase volume by 5% |
 | SUPER + F3 | Decrease volume by 5% |
@@ -194,6 +80,9 @@ Enables:
 | SUPER + ←/→/↑/↓ | Move focus |
 | SUPER + SHIFT + ←/→/↑/↓ | Move window |
 | SUPER + J | Toggle split layout |
+| SUPER + C | Close active window |
+| SUPER + V | Toggle floating |
+| SUPER + F | Fullscreen |
 
 ---
 
