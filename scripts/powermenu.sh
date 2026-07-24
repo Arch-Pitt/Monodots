@@ -12,7 +12,7 @@ window {
     background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid;
     border-color: rgba(68, 68, 68, 0.3);
-    padding: 30px;
+    padding: 15px;
 }
 
 mainbox {
@@ -65,6 +65,6 @@ case "$CHOICE" in
         hyprlock
         ;;
     "$LOGOUT")
-        killall Hyprland
+        killall Hyprland 
         ;;
 esac

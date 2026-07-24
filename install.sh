@@ -139,9 +139,9 @@ fi
 echo "Making custom scripts executable..."
 cleaner_script="$HOME/.scripts/cleaner.sh"
 wallpicker_script="$HOME/.scripts/wallpicker.sh"
-logout_script="$HOME/.scripts/logoutmenu.sh"
+power_script="$HOME/.scripts/powermenu.sh"
 
-if sudo chmod +x "$cleaner_script" && sudo chmod +x "$wallpicker_script" && sudo chmod +x "$logout_script"; then
+if sudo chmod +x "$cleaner_script" && sudo chmod +x "$wallpicker_script" && sudo chmod +x "$power_script"; then
 		echo "Success! Scripts are now executable."
 else
 		echo "ERROR: Failed to make the scripts executable."
