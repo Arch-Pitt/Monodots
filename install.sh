@@ -87,7 +87,8 @@ sudo pacman -S --needed --noconfirm \
 	wine \
 	wine-gecko \
 	wine-mono \
-	winetricks
+	winetricks \
+	cmake
 
 echo "Installing applications"
 sudo pacman -S --needed --noconfirm \
