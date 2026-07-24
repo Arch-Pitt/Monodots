@@ -102,14 +102,14 @@ mkdir -p \
 	~/Documents \
 	~/Downloads \
 	~/Music \
-	~/Templates \
+	~/Games \
 	~/Videos \
+	~/Pictures \
+	~/Projects \
 	~/.themes \
 	~/.icons \
 	~/.config \
 	~/.scripts \
-	~/Pictures \
-	~/Projects
 
 echo "Copying dotfiles to user directories"
 if cp -r config/* "$HOME/.config/" && \
