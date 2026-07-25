@@ -9,7 +9,7 @@
 }
 
 window#waybar {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.85);
     border: 1px solid rgba(68, 68, 68, 0.4); 
     border-radius: 4px;
 }

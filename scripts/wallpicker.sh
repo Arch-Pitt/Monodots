@@ -9,21 +9,13 @@ if [ ! -d "$DIR_WALLPAPERS" ]; then
 fi
 
 ROFI_THEME="
-* {
-    wbg-color: rgba(0, 0, 0, 0.9);
-    w-border-color: rgba(68, 68, 68, 0.3);
-    hl-color: #FFFFFFFF;
-}
-
 window { 
     width: 70%; 
     height: 45%; 
     anchor: center; 
     location: center; 
     border-radius: 4px; 
-    background-color: @wbg-color;
     border: 1px solid;
-    border-color: @w-border-color;
     padding: 14px;
 }
 
@@ -35,22 +27,22 @@ mainbox {
 
 inputbar {
     background-color: transparent;
-    text-color: @fg-color;
+    text-color: #FFFFFFFF;
     children: [ \"prompt\", \"entry\" ];
     padding: 8px;
 }
 
 prompt {
     background-color: transparent;
-    text-color: @fg-color;
+    text-color: #FFFFFFFF;
     padding: 0px 8px 0px 0px;
 }
 
 entry {
     background-color: transparent;
-    text-color: @fg-color;
+    text-color: #FFFFFFFF;
     placeholder: \"Search wallpapers...\";
-    placeholder-color: @fgp-color;
+    placeholder-color: #777777FF;
 }
 
 listview { 
@@ -70,7 +62,8 @@ element {
 }
 
 element selected.normal {
-    background-color: @hl-color;
+    background-color: #FFFFFFFF;
+    text-color: #000000FF;
 }
 
 element-icon { 

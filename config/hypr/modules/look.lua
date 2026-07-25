@@ -30,9 +30,9 @@ hl.config({
         },
 
         blur = {
-            enabled = false,
+            enabled = true,
             size = 6,
-            passes = 2,
+            passes = 3,
         },
     },
 

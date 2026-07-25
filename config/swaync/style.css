@@ -39,7 +39,7 @@ blankwindow,
 }
 
 .control-center {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.85);
   border: 1px solid rgba(68, 68, 68, 0.3);
   border-radius: 4px;
   color: #ffffff;
@@ -54,7 +54,7 @@ blankwindow,
 }
 
 .control-center .control-center-list .notification {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6), 0 1px 3px 1px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6), 0 1px 3px 1px rgba(0, 0, 0, 0.5);
 }
 
 .control-center .control-center-list .notification .notification-default-action,
@@ -80,7 +80,7 @@ blankwindow,
 }
 
 .floating-notifications .notification {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.85);
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   margin: 3px;

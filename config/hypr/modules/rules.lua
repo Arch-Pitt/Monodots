@@ -10,7 +10,7 @@ hl.window_rule({
 hl.window_rule({
     name = "transparent-kitty",
     match = { class = "kitty" },
-    opacity = 0.9,
+    opacity = 0.85,
 })
 
 -- Floating rules

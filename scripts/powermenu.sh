@@ -9,9 +9,7 @@ ROFI_THEME="
 window { 
     width: 600px;
     border-radius: 4px; 
-    background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid;
-    border-color: rgba(68, 68, 68, 0.3);
     padding: 15px;
 }
 
