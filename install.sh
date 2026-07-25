@@ -14,113 +14,112 @@ EOF
 echo "System update"
 sudo pacman -Syyuu --noconfirm
 
-cd ~
-
-echo "Installing fonts"
+echo "Installing fonts and themes"
 sudo pacman -S --needed --noconfirm \
-	ttf-dejavu \
-	noto-fonts \
-	noto-fonts-emoji \
-	ttf-jetbrains-mono-nerd
+    noto-fonts \
+    noto-fonts-emoji \
+    ttf-dejavu \
+    ttf-jetbrains-mono-nerd \
+    nwg-look
 
-echo "Installing media codecs"
+echo "Installing Wayland and Hyprland core"
 sudo pacman -S --needed --noconfirm \
-	gst-libav \
-	gst-plugins-bad \
-	gst-plugins-ugly \
-	gst-plugins-pipewire \
-	ffmpeg \
-	gstreamer
+    hyprland \
+    qt5-wayland \
+    qt6-wayland \
+    xdg-desktop-portal \
+    xdg-desktop-portal-hyprland \
+    polkit-gnome \
+    sddm
 
-echo "Installing Hyprland ecosystem"
+echo "Installing desktop components"
 sudo pacman -S --needed --noconfirm \
-	hyprland \
-	kitty \
-	fish \
-	waybar \
-	rofi-wayland \
-	awww \
-	nwg-look \
-	hyprshot \
-	hyprlock \
-	hypridle \
-	hyprsunset \
-	swaync \
-	xdg-desktop-portal \
-	xdg-desktop-portal-hyprland \
-	qt5-wayland \
-	qt6-wayland \
-	wl-clipboard \
-	cliphist \
-	powerprofilesctl \
-	brightnessctl
+    waybar \
+    rofi-wayland \
+    awww \
+    swaync \
+    hypridle \
+    hyprlock \
+    hyprshot \
+    hyprsunset \
+    wl-clipboard \
+    cliphist \
+    brightnessctl \
+    playerctl
 
-echo "Installing system utilities"
+echo "Installing audio and media codecs"
 sudo pacman -S --needed --noconfirm \
-	fastfetch \
-	vim \
-	nano \
-	vscodium \
-	unzip \
-	unrar \
-	zip \
-	p7zip \
-	nemo-fileroller \
-	btop \
-	gvfs \
-	gvfs-mtp \
-	gvfs-afc \
-	usbutils \
-	android-udev \
-	cachyos-gaming-meta \
-	gamemode \
-	networkmanager \
-	network-manager-applet \
-	pipewire \
-	pipewire-audio \
-	pipewire-alsa \
-	pipewire-pulse \
-	wireplumber \
-	ufw \
-	polkit-gnome \
-	sddm \
-	wine \
-	wine-gecko \
-	wine-mono \
-	winetricks \
-	cmake
+    pipewire \
+    pipewire-audio \
+    pipewire-alsa \
+    pipewire-pulse \
+    wireplumber \
+    pavucontrol \
+    ffmpeg \
+    gstreamer \
+    gst-libav \
+    gst-plugins-bad \
+    gst-plugins-ugly
 
-echo "Installing applications"
+echo "Installing system and network tools"
 sudo pacman -S --needed --noconfirm \
-	firefox \
-	pavucontrol \
-	mpv \
-	nemo \
-	file-roller
+    networkmanager \
+    network-manager-applet \
+    ufw \
+    gvfs \
+    gvfs-mtp \
+    gvfs-afc \
+    usbutils \
+    android-udev
+
+echo "Installing terminal and utilities"
+sudo pacman -S --needed --noconfirm \
+    kitty \
+    fish \
+    fastfetch \
+    nano \
+    btop \
+    unzip \
+    unrar \
+    zip \
+    p7zip
+
+echo "Installing applications and gaming"
+sudo pacman -S --needed --noconfirm \
+    firefox \
+    mpv \
+    nemo \
+    nemo-fileroller \
+    file-roller \
+    gamemode \
+    wine \
+    wine-gecko \
+    wine-mono \
+    winetricks
 
 echo "Creating user directories"
 mkdir -p \
-	~/Documents \
-	~/Downloads \
-	~/Music \
-	~/Games \
-	~/Videos \
-	~/Pictures \
-	~/Projects \
-	~/.themes \
-	~/.icons \
-	~/.config \
-	~/.scripts \
+    ~/Documents \
+    ~/Downloads \
+    ~/Music \
+    ~/Games \
+    ~/Videos \
+    ~/Pictures \
+    ~/Projects \
+    ~/.themes \
+    ~/.icons \
+    ~/.config \
+    ~/.scripts
 
 echo "Copying dotfiles to user directories"
-if cp -r config/* "$HOME/.config/" && \
-	 cp -r themes/* "$HOME/.themes/" && \
-	 cp -r icons/* "$HOME/.icons/" && \
-	 cp -r scripts/* "$HOME/.scripts/" && \
-	 cp -r Wallpapers "$HOME/Pictures/"; then
-		echo "Success! All dotfiles were successfully copied."
+if cp -r config/. "$HOME/.config/" && \
+     cp -r themes/. "$HOME/.themes/" && \
+     cp -r icons/. "$HOME/.icons/" && \
+     cp -r scripts/. "$HOME/.scripts/" && \
+     cp -r Wallpapers "$HOME/Pictures/"; then
+        echo "Success! All dotfiles were successfully copied."
 else
-		echo "ERROR: Failed to copy the dotfiles."
+        echo "ERROR: Failed to copy the dotfiles."
 fi
 
 echo "Copying SDDM theme and configuration..."
@@ -131,9 +130,9 @@ configfile="$HOME/Monodots/sddm/sddm.conf"
 configdir="/etc/"
 
 if sudo cp -r "$theme" "$themedir" && sudo cp "$configfile" "$configdir"; then
-		echo "Success! Theme and configuration were successfully copied."
+        echo "Success! Theme and configuration were successfully copied."
 else
-		echo "ERROR: Failed to copy the files."
+        echo "ERROR: Failed to copy the files."
 fi
 
 echo "Making custom scripts executable..."
@@ -141,10 +140,10 @@ cleaner_script="$HOME/.scripts/cleaner.sh"
 wallpicker_script="$HOME/.scripts/wallpicker.sh"
 power_script="$HOME/.scripts/powermenu.sh"
 
-if sudo chmod +x "$cleaner_script" && sudo chmod +x "$wallpicker_script" && sudo chmod +x "$power_script"; then
-		echo "Success! Scripts are now executable."
+if chmod +x "$cleaner_script" "$wallpicker_script" "$power_script"; then
+        echo "Success! Scripts are now executable."
 else
-		echo "ERROR: Failed to make the scripts executable."
+        echo "ERROR: Failed to make the scripts executable."
 fi
 
 echo "Enabling services"

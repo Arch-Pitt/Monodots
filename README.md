@@ -2,7 +2,7 @@
 Personal dotfiles for a simple and monochrome Hyprland setup.
 
 ## Installation
-> ⚠️ This setup is intended for **Arch Linux or Arch-based distributions only**
+> ⚠️ This setup is intended for **Arch Linux or Arch-based distributions only.**
 
 **For the best experience, i highly recommend installing CachyOS without a desktop environment or Arch linux with archinstall script. This configurations includes some essential packages required to get started.**
 
@@ -33,12 +33,13 @@ And finally, reboot the system:
    ```
 
 ## Features
-* Preconfigured **Kitty**, **Waybar**, **Rofi** and **Swaync**
-* **Fish shell** for a faster terminal
-* Lockscreen with **Hyprlock**
-* Basic firewall and networking setup with **UFW** and **NetworkManager**
-* **CachyOS Gaming Meta** and **Gamemode** for seamless gaming compatibility and required libraries.
-* Custom scripts like **Cleaner** and **Wallpicker**
+* Preconfigured **Kitty**, **Waybar**, **Rofi** and **Swaync**.
+* **Fish shell** for a faster terminal.
+* Lockscreen with **Hyprlock**.
+* Basic firewall and networking setup with **UFW** and **NetworkManager**.
+* **Gamemode** for better performance during game sessions.
+* Custom **Cleaner** script.
+* Wallpaper manager with **Wallpicker**.
 * **Orchis Grey Dark** GTK theme and **Papirus** icon theme for a clean UI.
 
 ## Preview
@@ -49,7 +50,7 @@ And finally, reboot the system:
 ![Swaync](/previews/swaync.png)
 ![Terminal](/previews/terminal.png)
 ![GTK](/previews/gtktheme.png)
-> Any wallpaper used in preview is **not** included in the dotfiles. In the wallpapers folder you will only have by default a black wallpaper to test wallpicker script. 
+> Any wallpaper used in preview is **not** included in the dotfiles. In the wallpapers folder you will only have a default wallpaper to test wallpicker script. 
 
 ## Keybindings
 > Main modifier: `SUPER` (Windows key)
@@ -97,4 +98,5 @@ And finally, reboot the system:
 
 ## Notes
 * This setup assumes a **simple Arch installation**, so some things may be missing, such as GPU drivers.
+* You need to set GTK and Icon themes in GTK Setting app.
 * Feel free to modify the script to fit your needs.
