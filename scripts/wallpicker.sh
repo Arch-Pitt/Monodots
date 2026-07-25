@@ -93,7 +93,4 @@ if [ -n "$CHOICE" ]; then
         --transition-type wipe \
         --transition-angle 30 \
         --transition-step 90
-
-    NAME_CLEAN=$(basename "$CHOICE" | cut -d. -f1)
-    notify-send "Wallpicker" "[$NAME_CLEAN] was selected" -i "$FULL_PATH"
 fi
