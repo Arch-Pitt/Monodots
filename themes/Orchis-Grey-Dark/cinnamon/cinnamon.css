@@ -133,7 +133,7 @@ stage {
 }
 
 #LookingGlassDialog {
-  background-color: rgba(15, 15, 15, 0.97);
+  background-color: #0F0F0F;
   spacing: 6px;
   padding: 6px 12px;
   border: none;
@@ -363,7 +363,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .popup-combo-menu .popup-menu-content {
   color: white;
   padding: 6px;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: #000000;
   border-radius: 20px;
   margin: 6px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
@@ -546,7 +546,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: rgba(255, 255, 255, 0.7);
   font-size: 1em;
   padding: 0px;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 16px rgba(0, 0, 0, 0.24);
 }
 
@@ -1163,7 +1163,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .switcher-list {
   color: white;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: #000000;
   border: none;
   border-radius: 12px;
   padding: 20px;
@@ -1657,7 +1657,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   spacing: 1em;
   padding: 16px;
   color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
 }
 
 .osd-window {
@@ -1669,7 +1669,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   min-height: 64px;
   color: rgba(255, 255, 255, 0.7);
   border-radius: 18px;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
   border: none;
 }
 
@@ -1865,7 +1865,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   padding: 6px;
   padding: 6px;
   margin: 6px;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: #000000;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
   border-radius: 18px;
   color: white;
@@ -2187,16 +2187,16 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .workspace-graph .workspace .windows {
-  -active-window-background: rgba(38, 38, 38, 0.65);
+  -active-window-background: #262626;
   -active-window-border: rgba(0, 0, 0, 0.8);
-  -inactive-window-background: rgba(38, 38, 38, 0.65);
+  -inactive-window-background: #262626;
   -inactive-window-border: rgba(0, 0, 0, 0.8);
 }
 
 .workspace-graph .workspace:active .windows {
-  -active-window-background: rgba(51, 51, 51, 0.65);
+  -active-window-background: #333333;
   -active-window-border: rgba(0, 0, 0, 0.8);
-  -inactive-window-background: rgba(13, 13, 13, 0.65);
+  -inactive-window-background: #0d0d0d;
   -inactive-window-border: rgba(0, 0, 0, 0.8);
 }
 

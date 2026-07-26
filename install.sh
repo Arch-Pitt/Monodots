@@ -135,17 +135,6 @@ else
         echo "ERROR: Failed to copy the files."
 fi
 
-echo "Making custom scripts executable..."
-cleaner_script="$HOME/.scripts/cleaner.sh"
-wallpicker_script="$HOME/.scripts/wallpicker.sh"
-power_script="$HOME/.scripts/powermenu.sh"
-
-if chmod +x "$cleaner_script" "$wallpicker_script" "$power_script"; then
-        echo "Success! Scripts are now executable."
-else
-        echo "ERROR: Failed to make the scripts executable."
-fi
-
 echo "Enabling services"
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager

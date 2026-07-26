@@ -3590,12 +3590,12 @@ separator.sidebar {
 /****************
  * File chooser *
  ****************/
-row image.sidebar-icon {
+row image {
   transition: color 75ms cubic-bezier(0, 0, 0.2, 1);
   color: rgba(255, 255, 255, 0.7);
 }
 
-row image.sidebar-icon:disabled {
+row image:disabled {
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -3624,7 +3624,7 @@ placessidebar.sidebar row:selected {
   font-weight: 500;
 }
 
-placessidebar.sidebar row:selected image.sidebar-icon {
+placessidebar.sidebar row:selected image {
   color: #DDDDDD;
 }
 
@@ -3632,23 +3632,23 @@ placessidebar.sidebar row:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-placessidebar.sidebar row image.sidebar-icon:dir(ltr) {
+placessidebar.sidebar row image:dir(ltr) {
   padding-right: 8px;
 }
 
-placessidebar.sidebar row image.sidebar-icon:dir(rtl) {
+placessidebar.sidebar row image:dir(rtl) {
   padding-left: 8px;
 }
 
-placessidebar.sidebar row label.sidebar-label {
+placessidebar.sidebar row label {
   color: inherit;
 }
 
-placessidebar.sidebar row label.sidebar-label:dir(ltr) {
+placessidebar.sidebar row label:dir(ltr) {
   padding-right: 2px;
 }
 
-placessidebar.sidebar row label.sidebar-label:dir(rtl) {
+placessidebar.sidebar row label:dir(rtl) {
   padding-left: 2px;
 }
 
@@ -3660,7 +3660,7 @@ placessidebar.sidebar row.sidebar-new-bookmark-row {
   color: #DDDDDD;
 }
 
-placessidebar.sidebar row.sidebar-new-bookmark-row image.sidebar-icon {
+placessidebar.sidebar row.sidebar-new-bookmark-row image {
   color: #DDDDDD;
 }
 
@@ -4208,15 +4208,15 @@ popover.emoji-completion .emoji:hover {
   animation: none;
 }
 
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable label.sidebar-label {
+.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable image, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable label {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable image.sidebar-icon {
+.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable image {
   padding-right: 6px;
 }
 
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable label.sidebar-label {
+.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable label {
   color: inherit;
   min-height: 54px;
   padding: 0 0 0 6px;
@@ -4242,11 +4242,11 @@ popover.emoji-completion .emoji:hover {
   background-color: rgba(245, 124, 0, 0.1);
 }
 
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active), .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active) image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active) label.sidebar-label {
+.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active), .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active) image, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active) label {
   color: #F57C00;
 }
 
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:hover image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:hover label.sidebar-label {
+.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:hover image, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:hover label {
   color: #DDDDDD;
 }
 
@@ -4255,7 +4255,7 @@ popover.emoji-completion .emoji:hover {
   font-weight: 700;
 }
 
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected label.sidebar-label {
+.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected image, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected label {
   color: #DDDDDD;
 }
 
@@ -4267,7 +4267,7 @@ popover.emoji-completion .emoji:hover {
   border-image-source: -gtk-scaled(url("assets/row-selected-blackness-dark.png"), url("assets/row-selected-blackness-dark@2.png"));
 }
 
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected > revealer.sidebar-revealer > widget > box label.sidebar-label {
+.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected > revealer.sidebar-revealer > widget > box label {
   padding-left: 14px;
 }
 
@@ -4275,7 +4275,7 @@ popover.emoji-completion .emoji:hover {
   color: #DDDDDD;
 }
 
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled label.sidebar-label {
+.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled image, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled label {
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -6769,7 +6769,7 @@ UnityPanelWidget:backdrop,
 }
 
 .mate-panel-menu-bar {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
   box-shadow: none;
@@ -7563,7 +7563,7 @@ MsdOsdWindow.background.osd .progressbar {
 }
 
 .budgie-panel.transparent {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
 }
 
 .bottom .budgie-panel.dock-mode {
@@ -8166,7 +8166,7 @@ button.centerbutton:last-child {
 .xfce4-panel.background {
   border: none;
   border-color: transparent;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
 }
@@ -8256,7 +8256,7 @@ window#whiskermenu-window > frame > border {
   padding: 6px 8px 6px 9px;
   margin: 6px;
   border: none;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: #000000;
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12), inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
@@ -8410,7 +8410,7 @@ dialog.xfsm-logout-dialog {
   box-shadow: none;
   border: none;
   border-radius: 18px;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: #000000;
 }
 
 /**********************
@@ -8656,7 +8656,7 @@ FIXME this is really an API */
 @define-color text_view_bg black;
 @define-color budgie_tasklist_indicator_color rgba(255, 255, 255, 0.7);
 @define-color budgie_tasklist_indicator_color_active #DDDDDD;
-@define-color budgie_tasklist_indicator_color_active_window rgba(139, 139, 139, 0.8075);
+@define-color budgie_tasklist_indicator_color_active_window #636363;
 @define-color budgie_tasklist_indicator_color_attention #FBC02D;
 @define-color STRAWBERRY_100 #FF9262;
 @define-color STRAWBERRY_300 #FF793E;

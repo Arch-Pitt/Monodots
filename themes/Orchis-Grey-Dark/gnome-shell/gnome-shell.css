@@ -751,7 +751,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .popup-menu .popup-menu-content {
   padding: 6px;
   margin: 0 3px 14px;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: #000000;
   border-radius: 20px;
   border: none;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
@@ -1913,7 +1913,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .quick-toggle-menu {
   border-radius: 30px !important;
   padding: 12px;
-  margin: 12px 21px 0;
+  margin-top: 12px;
+  margin-bottom: 0;
   background-color: white !important;
   color: rgba(0, 0, 0, 0.65) !important;
 }
@@ -2697,7 +2698,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   height: 38px;
   border: none;
   box-shadow: none;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
   margin: 3px;
   border-radius: 9999px;
 }
@@ -2712,7 +2713,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel .panel-corner {
   -panel-corner-radius: 0;
-  -panel-corner-background-color: rgba(0, 0, 0, 0.65);
+  -panel-corner-background-color: #000000;
   -panel-corner-border-width: 0;
   -panel-corner-border-color: transparent;
   -panel-corner-opacity: 1;
@@ -2867,13 +2868,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 #panel Gjs_arcmenu_arcmenu_com_menuButton_ArcMenuMenuButton.panel-button .arcmenu-menu-button:active, #panel Gjs_arcmenu_arcmenu_com_menuButton_ArcMenuMenuButton.panel-button .arcmenu-menu-button:overview, #panel Gjs_arcmenu_arcmenu_com_menuButton_ArcMenuMenuButton.panel-button .arcmenu-menu-button:focus, #panel Gjs_arcmenu_arcmenu_com_menuButton_ArcMenuMenuButton.panel-button .arcmenu-menu-button:checked {
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: none;
-}
-
-#panel Gjs_status_keyboard_InputSourceIndicator.panel-button,
-#panel Gjs_appindicatorsupport_rgcjonas_gmail_com_indicatorStatusIcon_IndicatorStatusIcon.panel-button,
-#panel Gjs_appindicatorsupport_rgcjonas_gmail_com_indicatorStatusIcon_AppIndicatorsIndicatorStatusIcon.panel-button {
-  -natural-hpadding: 17px !important;
-  -minimum-hpadding: 17px !important;
 }
 
 #panel .screencast-indicator,
@@ -4936,7 +4930,7 @@ StWidget.focused .app-grid-running-dot {
 }
 
 #dashtodockContainer #dash .dash-background {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
 }
 
 #dashtodockContainer #dash .app-grid-running-dot {
@@ -4954,7 +4948,7 @@ StWidget.focused .app-grid-running-dot {
 }
 
 #dashtodockContainer.transparent #dash .dash-background {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
 }
 
 #dashtodockContainer:overview #dash {
@@ -5023,7 +5017,7 @@ StWidget.focused .app-grid-running-dot {
 }
 
 .dashtopanelMainPanel .dash-background {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
   margin-bottom: 0 !important;
   padding: 0 !important;
   border-radius: 0 !important;
@@ -5195,7 +5189,7 @@ StWidget.focused .app-grid-running-dot {
 }
 
 .cosmic-dock #dock .dash-background {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #000000;
 }
 
 .cosmic-dock.extended #dash {

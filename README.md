@@ -32,6 +32,21 @@ And finally, reboot the system:
    sudo reboot
    ```
 
+## Post-Installation
+After installing, there are a few manual steps to get everything working correctly:
+
+* **Make custom scripts executable:** This is required for the power menu and the wallpaper picker to function.
+
+  ```bash
+  chmod +x .scripts/cleaner.sh .scripts/powermenu.sh wallpicker.sh 
+  ```
+* **Install GPU Drivers:** To get the best performance and avoid visual glitches, make sure you have the correct video drivers installed for your system.
+
+* **Configure your monitors:** You need to set your own monitor resolution, refresh rate, and positioning.
+   * Open and edit the following file: `~/.config/hypr/modules/monitors.lua`
+
+* **Set GTK and Icon Themes:** Apply your preferred look using a GTK settings app.
+
 ## Features
 * Preconfigured **Kitty**, **Waybar**, **Rofi** and **Swaync**.
 * **Fish shell** for a faster terminal.

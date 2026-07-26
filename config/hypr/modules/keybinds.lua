@@ -18,8 +18,8 @@ hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 
 hl.bind(mainMod .. " + H", hl.dsp.exec_cmd("killall waybar || waybar"))
-hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("sh /home/pitt/.scripts/wallpicker.sh"))
-hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("sh /home/pitt/.scripts/powermenu.sh"))
+hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("sh ~/.scripts/wallpicker.sh"))
+hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("sh ~/.scripts/powermenu.sh"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region -o ~/Pictures/Screenshots"))
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m output -o ~/Pictures/Screenshots"))
 
