@@ -42,6 +42,7 @@ sudo pacman -S --needed --noconfirm \
     hyprlock \
     hyprshot \
     hyprsunset \
+    hyprpicker \
     wl-clipboard \
     cliphist \
     brightnessctl \
