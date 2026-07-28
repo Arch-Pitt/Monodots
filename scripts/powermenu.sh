@@ -7,10 +7,10 @@ LOGOUT=""
 
 ROFI_THEME="
 window { 
-    width: 600px;
+    width: 500px;
     border-radius: 4px; 
     border: 1px solid;
-    padding: 15px;
+    padding: 12px;
 }
 
 mainbox {
@@ -29,7 +29,7 @@ listview {
 
 element { 
     orientation: horizontal;
-    padding: 25px 0px;
+    padding: 20px 0px;
     border-radius: 4px; 
     background-color: transparent;
     text-color: #FFFFFFFF;
@@ -44,7 +44,7 @@ element selected.normal {
 element-text { 
     background-color: transparent;
     text-color: inherit;
-    font: \"JetBrainsMono Nerd Font Propo 32\"; 
+    font: \"JetBrainsMono Nerd Font Propo 28\"; 
     horizontal-align: 0.5; 
     vertical-align: 0.5;
 }
