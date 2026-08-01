@@ -42,6 +42,8 @@ After installing, there are a few manual steps to get everything working correct
   ```
 * **Install GPU Drivers:** To get the best performance and avoid visual glitches, make sure you have the correct video drivers installed for your system.
 
+* **Install CPU Microcode:** To improve stability and fix known CPU issues, make sure the correct CPU microcode updates are installed.
+
 * **Configure your monitors:** You need to set your own monitor resolution, refresh rate, and positioning.
    * Open and edit the following file: `~/.config/hypr/modules/monitors.lua`
 
@@ -112,6 +114,6 @@ After installing, there are a few manual steps to get everything working correct
 ---
 
 ## Notes
-* This setup assumes a **simple Arch installation**, so some things may be missing, such as GPU drivers.
+* This setup assumes a **simple Arch installation**, so some things may be missing, such as GPU drivers and CPU microcodes.
 * You need to set GTK and Icon themes in GTK Setting app.
 * Feel free to modify the script to fit your needs.

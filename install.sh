@@ -61,7 +61,7 @@ sudo pacman -S --needed --noconfirm \
     gst-libav \
     gst-plugins-bad \
     gst-plugins-ugly
-
+    
 echo "Installing system and network tools"
 sudo pacman -S --needed --noconfirm \
     networkmanager \
