@@ -21,6 +21,12 @@ hl.window_rule({
 })
 
 hl.window_rule({
+    name = "floating-nmeditor",
+    match = { class = "nm-connection-editor" },
+    float = true,
+})
+
+hl.window_rule({
     name = "floating-fileroller",
     match = { class = "org.gnome.FileRoller" },
     float = true,

@@ -1,17 +1,10 @@
 {
-    "layer": "top",
-    "position": "left",
-    "width": 40,
-    "spacing": 0,
-    "margin-top": 4,
-    "margin-bottom": 4,
-    "margin-left": 4,
-    "margin-right": 0,
+    "height": 22,
+    "spacing": 4,
+    "position": "top",
 
     "modules-left": [
-        "custom/icon",
-        "cpu",
-        "memory",
+        "clock",
         "custom/separator",
         "tray"
     ],
@@ -22,9 +15,10 @@
         "network",
         "pulseaudio",
         "backlight",
+        "custom/notify",
         "battery",
         "custom/separator",
-        "clock"
+        "custom/power"
     ],
 
     "hyprland/workspaces": {
@@ -33,9 +27,9 @@
         "on-click": "activate",
         "format": "{icon}",
         "format-icons": {
-			"active": "󰪥",
-			"default": ""
-		},
+            "active": "󰪥",
+            "default": ""
+        },
         "persistent-workspaces": {
             "*": 3
         }
@@ -47,8 +41,8 @@
     },
 
     "clock": {
-        "format": "{:%H\n%M}",
-        "format-alt": "{:%d\n%m\n%y}",
+        "format": "{:%H:%M}",
+        "format-alt": "{:%d/%m/%Y}",
         "tooltip-format": "{:%d-%m-%Y}"
     },
 
@@ -100,25 +94,20 @@
         "on-click": "pavucontrol"
     },
 
-    "cpu": {
-        "format": "",
-        "tooltip-format": "CPU: {usage}%",
-        "on-click": "kitty -e btop"
+    "custom/power": {
+        "format": "⏻",
+        "tooltip-format": "Power",
+        "on-click": "sh .scripts/powermenu.sh"
     },
 
-    "memory": {
-        "format": "",
-        "tooltip-format": "RAM: {used}GB / {total}GB",
-        "on-click": "kitty -e btop"
-    },
-
-    "custom/icon": {
-        "format": "",
-        "tooltip-format": ""
+    "custom/notify": {
+        "format": "",
+        "tooltip-format": "Notifications",
+        "on-click": "swaync-client -t"
     },
 
     "custom/separator": {
-        "format": "---",
+        "format": "|",
         "tooltip": false
     }
 }

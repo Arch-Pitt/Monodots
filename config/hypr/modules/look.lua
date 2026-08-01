@@ -2,7 +2,7 @@
 hl.config({
     general = {
         gaps_in = 4,
-        gaps_out = 8,
+        gaps_out = 4,
         border_size = 1,
 
         col = {
@@ -16,7 +16,7 @@ hl.config({
     },
 
     decoration = {
-        rounding = 4,
+        rounding = 6,
         rounding_power = 2,
 
         active_opacity = 1.0,
