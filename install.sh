@@ -124,19 +124,6 @@ else
         echo "ERROR: Failed to copy the dotfiles."
 fi
 
-echo "Copying SDDM theme and configuration..."
-theme="$HOME/Monodots/sddm/monochrome"
-themedir="/usr/share/sddm/themes/"
-
-configfile="$HOME/Monodots/sddm/sddm.conf"
-configdir="/etc/"
-
-if sudo cp -r "$theme" "$themedir" && sudo cp "$configfile" "$configdir"; then
-        echo "Success! Theme and configuration were successfully copied."
-else
-        echo "ERROR: Failed to copy the files."
-fi
-
 echo "Enabling services"
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
