@@ -1,5 +1,5 @@
 # Monodots
-Personal dotfiles for a simple and monochrome Hyprland setup.
+Personal dotfiles for a simple and monochrome Hyprland rice.
 
 ## Installation
 > ⚠️ This setup is intended for **Arch Linux or Arch-based distributions only.**
