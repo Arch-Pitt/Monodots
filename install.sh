@@ -75,6 +75,7 @@ sudo pacman -S --needed --noconfirm \
 
 echo "Installing terminal and utilities"
 sudo pacman -S --needed --noconfirm \
+    pacman-contrib \
     kitty \
     fish \
     fastfetch \
