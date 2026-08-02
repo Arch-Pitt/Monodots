@@ -38,6 +38,7 @@ sudo pacman -S --needed --noconfirm \
     rofi-wayland \
     awww \
     swaync \
+    swayosd \
     hypridle \
     hyprlock \
     hyprshot \
