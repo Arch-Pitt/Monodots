@@ -13,7 +13,7 @@ window {
     transparency: "real";
     width: 600px;
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.75);
     border-color: rgba(68, 68, 68, 0.3);
     border: 1px solid;
     padding: 14px;

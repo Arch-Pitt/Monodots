@@ -6,13 +6,6 @@ hl.window_rule({
     float = true,
 })
 
--- Transparency rules
-hl.window_rule({
-    name = "transparent-kitty",
-    match = { class = "kitty" },
-    opacity = 0.85,
-})
-
 -- Floating rules
 hl.window_rule({
     name = "floating-pavucontrol",
