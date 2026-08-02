@@ -1,5 +1,5 @@
 * {
-  font-family: "JetBrainsMono Nerd Font Propo", sans-serif;
+  font-family: "JetBrainsMono Nerd Font Propo";
   font-size: 14px;
 }
 
@@ -219,7 +219,7 @@ blankwindow,
 }
 
 .floating-notifications .notification {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.75);
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 6px;
   margin: 3px;
@@ -240,7 +240,7 @@ blankwindow,
 }
 
 .notification-row .notification-background .notification {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.75);
   border: 1px solid rgba(68, 68, 68, 0.3);
   border-radius: 4px;
   padding: 0;
@@ -405,7 +405,7 @@ blankwindow,
 }
 
 .notification-group.collapsed .notification-row .notification {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .notification-group.collapsed .notification-row:not(:last-child) .notification-action,
