@@ -54,6 +54,13 @@ hl.layer_rule({
     ignore_alpha = 0.5,
 })
 
+hl.layer_rule({
+    name = "swayosd",
+    match = { namespace = "swayosd" },
+    blur = true,
+    ignore_alpha = 0.5,
+})
+
 -- Windows and workspaces
 hl.window_rule({
     name = "suppress-maximize-events",
