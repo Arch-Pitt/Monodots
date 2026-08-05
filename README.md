@@ -85,11 +85,11 @@ After installing, there are a few manual steps to get everything working correct
 | SUPER + SHIFT + W | Wallpicker |
 | SUPER + SHIFT + S | Screenshot (region) |
 | Printscreen | Screenshot (output) |
-| SUPER + F1 | Toggle mute |
-| SUPER + F2 | Increase volume by 5% |
-| SUPER + F3 | Decrease volume by 5% |
-| SUPER + F11 | Increase brightness by 5% |
-| SUPER + F12 | Decrease brightness by 5% |
+| Mute Audio | Toggle mute |
+| Increase Audio | Increase volume by 5% |
+| Decrease Audio | Decrease volume by 5% |
+| Increase Brightness | Increase brightness by 5% |
+| Decrease Brightness | Decrease brightness by 5% |
 
 ---
 
