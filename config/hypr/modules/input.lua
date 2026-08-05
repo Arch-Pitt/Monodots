@@ -1,17 +1,17 @@
 -- Input
 hl.config({
     input = {
-        kb_layout    = "br",
-        kb_variant   = "abnt2",
-        kb_model     = "",
-        kb_options   = "",
-        kb_rules     = "",
+        kb_layout = "",
+        kb_variant = "",
+        kb_model = "",
+        kb_options = "",
+        kb_rules = "",
 
-        follow_mouse = 1,
+        follow_mouse = 0,
 
-        sensitivity  = 0,
+        sensitivity = 0,
 
-        touchpad     = {
+        touchpad = {
             natural_scroll = false,
         },
     },
@@ -26,6 +26,6 @@ hl.gesture({
 
 -- Devices
 hl.device({
-    name        = "epic-mouse-v1",
+    name = "epic-mouse-v1",
     sensitivity = -0.5,
 })

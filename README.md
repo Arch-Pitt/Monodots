@@ -35,6 +35,9 @@ And finally, reboot the system:
 ## Post-Installation
 After installing, there are a few manual steps to get everything working correctly:
 
+* **Set your keyboard layout:** You need to set your keyboard layout in Hyprland config file to make sure you can type property.
+   * Open and edit the following file: `~/.config/hypr/modules/input.lua`
+
 * **Make custom scripts executable:** This is required for the power menu and the wallpaper picker to function.
 
   ```bash
