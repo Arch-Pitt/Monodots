@@ -41,14 +41,14 @@
     },
 
     "clock": {
-        "format": "{:%H:%M}",
+        "format": "󰥔 {:%H:%M}",
         "format-alt": "{:%d/%m/%Y}",
-        "tooltip-format": "{:%d-%m-%Y}"
+        "tooltip": false
     },
 
     "backlight": {
         "format": "󰃠",
-        "tooltip-format": "Brightness: {percent}%",
+        "tooltip": false,
         "on-click": "killall hyprsunset || hyprsunset"
     },
 
@@ -67,7 +67,7 @@
             "",
             ""
         ],
-        "tooltip-format": "Battery: {capacity}%",
+        "tooltip": false,
         "on-click": ""
     },
 
@@ -75,7 +75,7 @@
         "format-wifi": "",
         "format-ethernet": "󰈀",
         "format-disconnected": "⚠",
-        "tooltip-format": "Network: {essid} | {ifname}",
+        "tooltip": false,
         "on-click": "nm-connection-editor"
     },
 
@@ -90,19 +90,19 @@
                 ""
             ]
         },
-        "tooltip-format": "Volume {volume}%",
+        "tooltip": false,
         "on-click": "pavucontrol"
     },
 
     "custom/power": {
         "format": "⏻",
-        "tooltip-format": "Power",
+        "tooltip": false,
         "on-click": "sh .scripts/powermenu.sh"
     },
 
     "custom/notify": {
         "format": "",
-        "tooltip-format": "Notifications",
+        "tooltip": false,
         "on-click": "swaync-client -t"
     },
 
