@@ -65,11 +65,9 @@ After installing, there are a few manual steps to get everything working correct
 ## Preview
 ![Desktop](/previews/desktop.png)
 ![Rofi](/previews/rofi.png)
-![Wallpicker](/previews/wallpicker.png)
-![Power menu](/previews/powermenu.png)
 ![Swaync](/previews/swaync.png)
 ![Terminal](/previews/terminal.png)
-![GTK](/previews/gtktheme.png)
+![GTK](/previews/gtk.png)
 > Any wallpaper used in preview is **not** included in the dotfiles. In the wallpapers folder you will only have a default wallpaper to test wallpicker script. 
 
 ## Keybindings
