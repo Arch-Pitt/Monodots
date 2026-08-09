@@ -39,7 +39,6 @@ sudo pacman -S --needed --noconfirm \
     awww \
     swaync \
     swayosd \
-    hypridle \
     hyprlock \
     hyprshot \
     hyprsunset \
