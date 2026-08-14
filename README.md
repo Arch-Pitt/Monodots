@@ -41,7 +41,7 @@ After installing, there are a few manual steps to get everything working correct
 * **Make custom scripts executable:** This is required for the power menu and the wallpaper picker to function.
 
   ```bash
-  chmod +x .scripts/cleaner.sh .scripts/powermenu.sh wallpicker.sh 
+  chmod +x .scripts/cleaner.sh .scripts/powermenu.sh .scripts/wallpicker.sh 
   ```
 * **Install GPU Drivers:** To get the best performance and avoid visual glitches, make sure you have the correct video drivers installed for your system.
 
@@ -78,7 +78,7 @@ After installing, there are a few manual steps to get everything working correct
 |-----|--------|
 | SUPER + Q | Open terminal |
 | SUPER + E | Open file manager |
-| SUPER + R | Open app launcher |
+| SUPER + Space | Open app launcher |
 | SUPER + L | Lockscreen |
 | SUPER + P | Power menu |
 | SUPER + N | Notification center |
