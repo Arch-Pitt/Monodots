@@ -59,6 +59,7 @@ element {
     padding: 5px; 
     border-radius: 2px; 
     background-color: transparent;
+    children: [ \"element-icon\" ];
 }
 
 element selected.normal {
