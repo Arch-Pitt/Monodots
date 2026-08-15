@@ -4,8 +4,8 @@
     "position": "top",
     "margin-top": 0,
     "margin-bottom": 0,
-    "margin-left": 6,
-    "margin-right": 6,
+    "margin-left": 16,
+    "margin-right": 16,
 
     "modules-left": [
         "clock",

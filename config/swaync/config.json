@@ -13,7 +13,7 @@
   "notification-window-width": 380,
   "fit-to-screen": true,
   "control-center-margin-top": 2,
-  "control-center-margin-right": 2,
+  "control-center-margin-right": 10,
   "control-center-margin-bottom": 2,
   "control-center-margin-left": 2,
   "timeout": 5,

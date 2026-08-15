@@ -4,7 +4,7 @@ Personal dotfiles for a simple and monochrome Hyprland rice.
 ## Installation
 > ⚠️ This setup is intended for **Arch Linux or Arch-based distributions only.**
 
-**For the best experience, i highly recommend installing CachyOS without a desktop environment or Arch linux minimal with archinstall script. This configurations includes some essential packages required to get started.**
+**For the best experience, i highly recommend installing CachyOS without a desktop environment or Arch linux minimal with archinstall script. This configurations make the installation must easy without too much manual configuration.**
 
 Install dependencies:
 
