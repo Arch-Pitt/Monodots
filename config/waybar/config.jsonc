@@ -2,10 +2,10 @@
     "height": 26,
     "spacing": 2,
     "position": "top",
-    "margin-top": 3,
+    "margin-top": 0,
     "margin-bottom": 0,
-    "margin-left": 3,
-    "margin-right": 3,
+    "margin-left": 4,
+    "margin-right": 4,
 
     "modules-left": [
         "clock",
