@@ -9,12 +9,12 @@ if [ ! -d "$DIR_WALLPAPERS" ]; then
 fi
 
 ROFI_THEME="
-window { 
-    width: 70%; 
-    height: 45%; 
+window {
     anchor: center; 
     location: center; 
-    border-radius: 4px; 
+    width: 70%; 
+    height: 45%; 
+    border-radius: 6px;
     border: 1px solid;
     padding: 14px;
 }

@@ -6,9 +6,11 @@ LOCK=""
 LOGOUT=""
 
 ROFI_THEME="
-window { 
+window {
+    anchor: center; 
+    location: center;
     width: 500px;
-    border-radius: 4px; 
+    border-radius: 6px;
     border: 1px solid;
     padding: 12px;
 }
