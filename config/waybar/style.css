@@ -6,25 +6,27 @@
 }
 
 window#waybar {
-    background: transparent;
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(68, 68, 68, 0.4);
+    border-radius: 6px;
+    margin: 2px 4px;
     color: #ffffff;
 }
 
 .modules-left,
 .modules-center,
 .modules-right {
-    background: rgba(0, 0, 0, 0.75);
-    border: 1px solid rgba(68, 68, 68, 0.4);
+    background: transparent;
     border-radius: 6px;
-    margin: 2px 4px;
-    padding: 2px 5px;
+    margin: 2px 0px;
+    padding: 2px 3px;
 }
 
 #workspaces button {
     background: transparent;
     color: rgba(255, 255, 255, 0.5);
     border-radius: 4px;
-    padding: 0 10px;
+    padding: 0 8px;
     margin: 0 2px;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
@@ -61,7 +63,7 @@ window#waybar {
 
 #tray {
     background: transparent;
-    padding: 0 4px;
+    padding: 0px 4px;
 }
 
 button:hover,

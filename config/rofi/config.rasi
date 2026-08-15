@@ -4,7 +4,7 @@
 
 configuration {
     modi: "drun";
-    show-icons: false;
+    show-icons: true;
     display-drun: " ";
     drun-display-format: "{name}";
 }
@@ -66,7 +66,6 @@ element {
     border-radius: 4px;
     background-color: transparent;
     text-color: #FFFFFFFF;
-    children: [element-text];
 }
 
 element-icon {

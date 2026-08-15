@@ -15,47 +15,47 @@
     "break",
     {
       "type": "os",
-      "key": ""
+      "key": ""
     },
     {
       "type": "kernel",
-      "key": ""
+      "key": "󰌽"
     },
     {
       "type": "wm",
-      "key": ""
+      "key": ""
     },
     {
       "type": "packages",
-      "key": ""
+      "key": "󰏖"
     },
     {
       "type": "memory",
-      "key": ""
+      "key": "󰍛"
     },
     {
       "type": "host",
-      "key": ""
+      "key": "󰌢"
     },
     {
       "type": "cpu",
-      "key": ""
+      "key": "󰻠"
     },
     {
       "type": "gpu",
-      "key": ""
+      "key": "󰍹"
     },
     {
       "type": "swap",
-      "key": ""
+      "key": "󰓡"
     },
     {
       "type": "battery",
-      "key": ""
+      "key": "󰁹"
     },
     {
       "type": "uptime",
-      "key": ""
+      "key": "󰅐"
     },
     "break",
     {
