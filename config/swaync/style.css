@@ -31,10 +31,31 @@ scale:focus slider {
   background: rgba(255, 255, 255, 0.15);
 }
 
+notificationwindow,
+blankwindow,
+.blank-window {
+  background: transparent;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.floating-notifications {
+  background: transparent;
+  margin: 0px;
+}
+
+.floating-notifications .notification {
+  background: rgba(0, 0, 0, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  margin: 3px;
+  padding: 6px;
+}
+
 .control-center {
   background: rgba(0, 0, 0, 0.75);
   border: 1px solid rgba(68, 68, 68, 0.3);
-  border-radius: 6px;
+  border-radius: 6px 0 0 6px;
   color: #ffffff;
 }
 
@@ -61,7 +82,7 @@ scale:focus slider {
 }
 
 .control-center .notification-row .notification-background .notification {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5); 
 }
 
 .control-center .notification-group.collapsed .notification-row .notification {
@@ -120,27 +141,6 @@ scale:focus slider {
 
 .widget-dnd switch:checked slider {
   background: rgba(0, 0, 0, 0.8);
-}
-
-notificationwindow,
-blankwindow,
-.blank-window {
-  background: transparent;
-  font-size: 15px;
-  margin: 6px;
-}
-
-.floating-notifications {
-  background: transparent;
-  margin: 6px;
-}
-
-.floating-notifications .notification {
-  background: rgba(0, 0, 0, 0.75);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
-  margin: 3px;
-  padding: 6px;
 }
 
 .notification-row {
