@@ -58,7 +58,8 @@
 
     "backlight": {
         "format": "󰃠",
-        "tooltip": false,
+        "tooltip": true,
+        "tooltip-format": "{percent}%",
         "on-click": "killall hyprsunset || hyprsunset"
     },
 
@@ -77,7 +78,8 @@
             "",
             ""
         ],
-        "tooltip": false,
+        "tooltip": true,
+        "tooltip-format": "{capacity}%",
         "on-click": ""
     },
 
@@ -85,7 +87,10 @@
         "format-wifi": "",
         "format-ethernet": "󰈀",
         "format-disconnected": "⚠",
-        "tooltip": false,
+        "tooltip": true,
+        "tooltip-format-wifi": "Network: {essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "Connected (Ethernet)",
+        "tooltip-format-disconnected": "Disconnected",
         "on-click": "nm-connection-editor"
     },
 
@@ -100,13 +105,15 @@
                 ""
             ]
         },
-        "tooltip": false,
+        "tooltip": true,
+        "tooltip-format": "{volume}%",
         "on-click": "pavucontrol"
     },
 
     "custom/power": {
         "format": "⏻",
-        "tooltip": false,
+        "tooltip": true,
+        "tooltip-format": "Power Menu (Battery: {capacity}%)",
         "on-click": "sh .scripts/powermenu.sh"
     },
 

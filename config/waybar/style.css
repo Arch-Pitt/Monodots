@@ -111,6 +111,7 @@ tooltip {
 tooltip label {
     font-family: "JetbrainsMono Nerd Font Propo", sans-serif;
     font-size: 12px;
+    font-weight: bold;
     color: #ffffff;
     padding: 6px 12px;
 }
