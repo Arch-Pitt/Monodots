@@ -18,7 +18,7 @@
   "control-center-margin-top": 8,
   "control-center-margin-bottom": 8,
   "control-center-margin-left": 8,
-  "control-center-margin-right": 0,
+  "control-center-margin-right": 8,
 
   "transition-time": 200,
   "timeout": 5,
