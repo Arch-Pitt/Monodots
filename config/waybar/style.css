@@ -21,7 +21,7 @@ window#waybar {
 
 #window {
     background: transparent;
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffff;
     border-radius: 8px;
     padding: 0 4px;
     margin: 3px 4px;
@@ -79,7 +79,7 @@ window#waybar {
 
 #clock {
     background: rgba(255, 255, 255, 0.05);
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffff;
     border-radius: 2 10 10 2px;
     padding: 0 8px;
     margin: 3px 4px;
