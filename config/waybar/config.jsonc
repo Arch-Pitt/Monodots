@@ -117,7 +117,7 @@
     },
 
     "custom/power": {
-        "format": "⏻",
+        "format": "Power - ⏻",
         "tooltip": true,
         "tooltip-format": "Power Menu (Battery: {capacity}%)",
         "on-click": "sh .scripts/powermenu.sh"

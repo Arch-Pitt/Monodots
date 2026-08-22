@@ -35,7 +35,7 @@ window#waybar {
 }
 
 #workspaces {
-    background: rgba(255, 255, 255, 0.04);
+    background: transparent;
     margin: 2px 4px;
     padding: 2px;
     border-radius: 10px;
@@ -79,29 +79,26 @@ window#waybar {
 
 #clock {
     background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.06);
     color: rgba(255, 255, 255, 0.85);
     border-radius: 2 10 10 2px;
     padding: 0 8px;
     margin: 3px 4px;
-    font-weight: bold;;
+    font-weight: bold;
 }
 
 #tray {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.08);
     padding: 0 10px;
     border-radius: 16px;
 }
 
 #custom-power {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.08);
     color: #ffffff;
-    border-radius: 6px;
+    border-radius: 10 2 2 10px;
     padding: 0 12px;
     margin: 2px 2px;
-    transition: all 0.2s ease;
+    font-weight: bold;
 }
 
 button:hover,
