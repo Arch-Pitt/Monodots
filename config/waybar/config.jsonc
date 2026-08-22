@@ -2,20 +2,22 @@
     "height": 28,
     "spacing": 2,
     "position": "top",
+
     "margin-top": 0,
     "margin-bottom": 0,
-    "margin-left": 16,
-    "margin-right": 16,
+    "margin-left": 0,
+    "margin-right": 0,
 
     "modules-left": [
         "clock",
         "custom/separator",
-        "tray"
+        "hyprland/window"
     ],
     "modules-center": [
         "hyprland/workspaces"
     ],
     "modules-right": [
+        "tray",
         "network",
         "pulseaudio",
         "backlight",
@@ -35,14 +37,18 @@
             "default": ""
         },
         "persistent-workspaces": {
-            "*": 3
+            "*": 4
         }
     },
 
     "hyprland/window": {
         "format": "{}",
         "max-length": 35,
-        "tooltip": false
+        "separate-outputs": true,
+        "on-click": "",
+        "rewrite": {
+            "": "Desktop"
+        }
     },
 
     "tray": {
@@ -82,7 +88,7 @@
         "tooltip-format": "{capacity}%",
         "on-click": ""
     },
-
+    
     "network": {
         "format-wifi": "",
         "format-ethernet": "󰈀",
@@ -93,7 +99,7 @@
         "tooltip-format-disconnected": "Disconnected",
         "on-click": "nm-connection-editor"
     },
-
+    
     "pulseaudio": {
         "format": "{icon}",
         "format-muted": "",

@@ -14,15 +14,15 @@ window {
     location: south;
     anchor: center;
     width: 600px;
-    border-radius: 6 6 0 0px;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-color: rgba(68, 68, 68, 0.3);
+    border-radius: 8px 8px 0 0; 
+    background-color: rgba(10, 10, 10, 1); 
+    border-color: rgba(255, 255, 255, 0.08);
     border: 1px solid;
-    padding: 14px;
+    padding: 16px;
 }
 
 mainbox {
-    spacing: 10px;
+    spacing: 16px;
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -30,23 +30,24 @@ mainbox {
 }
 
 inputbar {
-    spacing: 10px;
-    background-color: transparent;
-    text-color: #FFFFFFFF;
+    spacing: 12px;
+    background-color: rgba(255, 255, 255, 0.04);
+    text-color: #ffffff;
+    border-radius: 4px;
     children: ["prompt", "entry"];
-    padding: 2px 4px;
+    padding: 10px 18px;
 }
 
 prompt {
     background-color: transparent;
-    text-color: #FFFFFFFF;
+    text-color: #ffffff;
 }
 
 entry {
     background-color: transparent;
-    text-color: #FFFFFFFF;
+    text-color: #ffffff;
     placeholder: "Search apps...";
-    placeholder-color: #777777FF;
+    placeholder-color: rgba(255, 255, 255, 0.4); 
 }
 
 listview {
@@ -57,23 +58,23 @@ listview {
     cycle: false;
     scrollbar: false;
     border: 0px solid;
-    background-color: transparent;
+    background-color: transparent; 
 }
 
 element {
-    spacing: 10px;
+    spacing: 12px;
     margin: 2px 0px;
-    padding: 6px 10px;
+    padding: 8px 12px;
     border: 0px solid;
     border-radius: 4px;
     background-color: transparent;
-    text-color: #FFFFFFFF;
+    text-color: rgba(255, 255, 255, 0.6);
 }
 
 element-icon {
     background-color: transparent;
     text-color: inherit;
-    size: 22px;
+    size: 24px;
 }
 
 element-text {
@@ -82,25 +83,16 @@ element-text {
     vertical-align: 0.5;
 }
 
-element normal.normal {
-    background-color: transparent;
-    text-color: #FFFFFFFF;
-}
-
+element normal.normal,
 element alternate.normal {
     background-color: transparent;
-    text-color: #FFFFFFFF;
+    text-color: rgba(255, 255, 255, 0.7);
 }
 
-element selected.normal {
-    background-color: #FFFFFFFF;
-    text-color: #000000FF;
-    border-radius: 4px;
-}
-
+element selected.normal,
 element selected.active {
-    background-color: #FFFFFFFF;
-    text-color: #000000FF;
+    background-color: rgba(255, 255, 255, 1);
+    text-color: #000000;
 }
 
 message {
