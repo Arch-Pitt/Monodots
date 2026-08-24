@@ -14,7 +14,7 @@ window {
     location: center; 
     width: 70%; 
     height: 45%; 
-    border-radius: 6px;
+    border-radius: 8px;
     border: 1px solid;
     padding: 14px;
 }
@@ -26,7 +26,6 @@ mainbox {
 }
 
 inputbar {
-    background-color: transparent;
     text-color: #FFFFFFFF;
     children: [ \"prompt\", \"entry\" ];
     padding: 8px;
@@ -91,7 +90,7 @@ if [ -n "$CHOICE" ]; then
 
     awww img "$FULL_PATH" \
         --transition-fps 144 \
-        --transition-type wipe \
+        --transition-type any \
         --transition-angle 30 \
         --transition-step 90
 fi
