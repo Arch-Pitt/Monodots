@@ -1,119 +1,112 @@
 # Monodots
-Personal dotfiles for a simple and monochrome Hyprland rice.
+Dotfiles pessoais para um rice do Hyprland simples.
 
-## Installation
-> ⚠️ This setup is intended for **Arch Linux or Arch-based distributions only.**
+## Instalação
+> ⚠️ Essa configuração foi feita **apenas para o Arch Linux ou distribuições baseadas no Arch.**
 
-**For the best experience, i highly recommend installing CachyOS without a desktop environment or Arch linux minimal with archinstall script. This configurations make the installation must easy without too much manual configuration.**
+**Para obter a melhor experiência, recomendo instalar o `CachyOS` sem ambiente gráfico (DE) ou o `Arch Linux` minimal usando o script `archinstall`. Essas configurações tornam a instalação muito mais fácil, sem a necessidade de muita configuração manual.**
 
-Install dependencies:
+Instale as dependências:
 
 ```bash
 sudo pacman -S --needed git base-devel
 ```
 
-Clone the repository:
+Clone o repositório:
 
 ```bash
-git clone https://github.com/Arch-Pitt/Monodots.git
-cd Monodots
+git clone https://github.com/Arch-Pitt/Monodots.git`  
+`cd Monodots`
 ```
 
-Make the installer executable and run it:
+Torne o instalador executável e execute-o:
 
-```bash
-chmod +x install.sh
+```bash 
+chmod +x install.sh  
 ./install.sh
 ```
 
-And finally, reboot the system:
+E finalmente, reinicie o sistema:
 
-   ```bash
-   sudo reboot
-   ```
+```bash
+sudo reboot
+```
 
-## Post-Installation
-After installing, there are a few manual steps to get everything working correctly:
+## Pós-Instalação
+Após a instalação, existem alguns passos manuais para deixar tudo funcionando corretamente:
 
-* **Set your keyboard layout:** You need to set your keyboard layout in Hyprland config file to make sure you can type property.
-   * Open and edit the following file: `~/.config/hypr/modules/input.lua`
+* **Defina o layout do seu teclado:** Você precisa configurar o layout do teclado no arquivo de configuração do Hyprland para garantir que consiga digitar corretamente.
+   * Abra e edite o seguinte arquivo: `~/.config/hypr/modules/input.lua`
 
-* **Make custom scripts executable:** This is required for the power menu and the wallpaper picker to function.
+* **Configure seus monitores:** Você precisa definir a resolução, a taxa de atualização e o posicionamento dos seus próprios monitores.
+   * Abra e edite o seguinte arquivo: `~/.config/hypr/modules/monitors.lua`
+
+* **Torne os scripts customizados executáveis:** Isso é necessário para que o menu de desligamento e o seletor de papéis de parede funcionem.
 
   ```bash
-  chmod +x .scripts/cleaner.sh .scripts/powermenu.sh .scripts/wallpicker.sh 
+  chmod +x .scripts/cleaner.sh .scripts/powermenu.sh .scripts/wallpicker.sh
   ```
-* **Install GPU Drivers:** To get the best performance and avoid visual glitches, make sure you have the correct video drivers installed for your system.
 
-* **Install CPU Microcode:** To improve stability and fix known CPU issues, make sure the correct CPU microcode updates are installed.
+* **Instale os Drivers de GPU:** Para obter o melhor desempenho e evitar falhas visuais, certifique-se de ter os drivers de vídeo corretos instalados para o seu sistema.
 
-* **Configure your monitors:** You need to set your own monitor resolution, refresh rate, and positioning.
-   * Open and edit the following file: `~/.config/hypr/modules/monitors.lua`
+* **Instale o Microcode do Processador:** Para melhorar a estabilidade e corrigir problemas conhecidos de CPU, certifique-se de que as atualizações de microcode corretas para seu processador estejam instaladas.
 
-* **Set GTK and Icon Themes:** Apply your preferred look using a GTK settings app.
+* **Defina os Temas do GTK e de Ícones:** Aplique o visual de sua preferência usando um aplicativo de configurações do GTK.
 
-## Features
-* Preconfigured **Kitty**, **Waybar**, **Rofi** and **Swaync**.
-* **Fish shell** for a faster terminal.
-* Lockscreen with **Hyprlock**.
-* Basic firewall and networking setup with **UFW** and **NetworkManager**.
-* **Gamemode** for better performance during game sessions.
-* Custom **Cleaner** script.
-* Wallpaper manager with **Wallpicker**.
-* **Orchis Grey Dark** GTK theme and **Papirus** icon theme for a clean UI.
+## Recursos
+* **Kitty**, **Waybar**, **Rofi** e **Swaync** pré-configurados.
+* **Fish shell** para um terminal mais rápido.
+* Tela de bloqueio com o **Hyprlock**.
+* Configuração básica de firewall e rede com **UFW** e **NetworkManager**.
+* **Gamemode** para melhor desempenho durante sessões de jogos.
+* Script de limpeza (**Cleaner**) personalizado.
+* Gerenciador de papéis de parede com o **Wallpicker**.
+* Tema GTK **Orchis Grey Dark** e tema de ícones **Papirus** para uma interface limpa.
 
-## Preview
+## Pré-visualização
 ![Desktop](/previews/desktop.png)
 ![Rofi](/previews/rofi.png)
 ![Swaync](/previews/swaync.png)
 ![GTK/Terminal](/previews/gtkandterminal.png)
-> Any wallpaper used in preview is **not** included in the dotfiles. In the wallpapers folder you will only have a default wallpaper to test wallpicker script. 
 
-## Keybindings
-> Main modifier: `SUPER` (Windows key)
+## Atalhos de Teclado
+> Modificador principal: `SUPER` (Tecla Windows)
 
-### General
-| Key | Action |
+### Geral
+| Tecla | Ação |
 |-----|--------|
-| SUPER + Q | Open terminal |
-| SUPER + E | Open file manager |
-| SUPER + Space | Open app launcher |
-| SUPER + L | Lockscreen |
-| SUPER + P | Power menu |
-| SUPER + N | Notification center |
-| SUPER + H | Toggle waybar |
-| SUPER + SHIFT + W | Wallpicker |
-| SUPER + SHIFT + S | Screenshot (region) |
-| Printscreen | Screenshot (output) |
-| Mute Audio | Toggle mute |
-| Increase Audio | Increase volume by 5% |
-| Decrease Audio | Decrease volume by 5% |
-| Increase Brightness | Increase brightness by 5% |
-| Decrease Brightness | Decrease brightness by 5% |
+| SUPER + Q | Abrir terminal |
+| SUPER + E | Abrir gerenciador de arquivos |
+| SUPER + Espaço | Abrir menu de aplicativos |
+| SUPER + L | Bloquear a tela |
+| SUPER + P | Menu de desligamento |
+| SUPER + N | Central de notificações |
+| SUPER + H | Alternar exibição da waybar |
+| SUPER + SHIFT + W | Seletor de papéis de parede |
+| SUPER + SHIFT + S | Captura de tela (região) |
+| Printscreen | Captura de tela (tela cheia) |
+| Mutar Áudio | Alternar mudo |
+| Aumentar Áudio | Aumentar volume em 5% |
+| Diminuir Áudio | Diminuir volume em 5% |
+| Aumentar Brilho | Aumentar brilho em 5% |
+| Diminuir Brilho | Diminuir brilho em 5% |
 
 ---
 
-### Window Management
-| Key | Action |
+### Gerenciamento de Janelas
+| Tecla | Ação |
 |-----|--------|
-| SUPER + ←/→/↑/↓ | Move focus |
-| SUPER + SHIFT + ←/→/↑/↓ | Move window |
-| SUPER + J | Toggle split layout |
-| SUPER + C | Close active window |
-| SUPER + V | Toggle floating |
-| SUPER + F | Fullscreen |
+| SUPER + ←/→/↑/↓ | Mover foco |
+| SUPER + SHIFT + ←/→/↑/↓ | Mover janela |
+| SUPER + J | Alternar layout de divisão (split) |
+| SUPER + C | Fechar janela ativa |
+| SUPER + V | Alternar modo flutuante |
+| SUPER + F | Tela cheia |
 
 ---
 
-### Workspaces
-| Key | Action |
+### Áreas de Trabalho (Workspaces)
+| Tecla | Ação |
 |-----|--------|
-| SUPER + 1-0 | Switch workspace |
-| SUPER + SHIFT + 1-0 | Move window to workspace |
-
----
-
-## Notes
-* This setup assumes a **simple Arch installation**, so some things may be missing, such as GPU drivers and CPU microcodes.
-* You need to set GTK and Icon themes in GTK Setting app.
-* Feel free to modify the script to fit your needs.
+| SUPER + 1-0 | Alternar área de trabalho |
+| SUPER + SHIFT + 1-0 | Mover janela para a área de trabalho |
