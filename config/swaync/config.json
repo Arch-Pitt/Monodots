@@ -9,7 +9,7 @@
   "layer-shell-cover-screen": true,
 
   "positionX": "right",
-  "positionY": "top",
+  "positionY": "center",
   "fit-to-screen": true,
   "control-center-width": 380,
   "control-center-height": 550,
