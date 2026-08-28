@@ -10,11 +10,11 @@ fi
 
 ROFI_THEME="
 window {
+    location: south;
     anchor: center; 
-    location: center; 
     width: 70%; 
     height: 45%; 
-    border-radius: 8px;
+    border-radius: 8px 8px 0px 0px; 
     border: 1px solid;
     padding: 14px;
 }
@@ -28,7 +28,7 @@ mainbox {
 inputbar {
     text-color: #FFFFFFFF;
     children: [ \"prompt\", \"entry\" ];
-    padding: 8px;
+    padding: 12px;
 }
 
 prompt {
