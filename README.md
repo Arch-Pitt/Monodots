@@ -66,6 +66,7 @@ Após a instalação, existem alguns passos manuais para deixar tudo funcionando
 ## Pré-visualização
 ![Desktop](/previews/desktop.png)
 ![Rofi](/previews/rofi.png)
+![Wallpicker](/previews/wallpicker.png)
 ![Swaync](/previews/swaync.png)
 ![GTK/Terminal](/previews/gtkandterminal.png)
 

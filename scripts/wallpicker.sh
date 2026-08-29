@@ -48,7 +48,7 @@ entry {
 listview { 
     columns: 4; 
     lines: 3; 
-    spacing: 25px; 
+    spacing: 10px; 
     fixed-columns: true;
     fixed-height: true;
     background-color: transparent;
@@ -56,7 +56,7 @@ listview {
 
 element { 
     orientation: vertical; 
-    padding: 5px; 
+    padding: 1px; 
     border-radius: 2px; 
     background-color: transparent;
     children: [ \"element-icon\" ];
