@@ -87,7 +87,7 @@ window#waybar > box {
     color: #ffffff;
     border-radius: 2px 4px 4px 12px;
     padding: 0 8px;
-    margin: 2px 2px;
+    margin: 2px 3px;
     font-weight: bold;
 }
 
@@ -102,7 +102,7 @@ window#waybar > box {
     color: #ffffff;
     border-radius: 4px 2px 12px 4px;
     padding: 0 12px;
-    margin: 2px 2px;
+    margin: 2px 3px;
     font-weight: bold;
 }
 
