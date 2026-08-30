@@ -10,7 +10,7 @@ window {
     anchor: center; 
     location: center;
     width: 500px;
-    border-radius: 8px;
+    border-radius: 12px;
     border: 1px solid;
     padding: 12px;
 }

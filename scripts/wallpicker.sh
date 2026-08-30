@@ -15,7 +15,7 @@ window {
     y-offset: 1px;
     width: 70%; 
     height: 45%; 
-    border-radius: 8px 8px 0px 0px; 
+    border-radius: 12px 12px 0px 0px; 
     border: 1px solid;
     padding: 14px;
 }
@@ -57,7 +57,7 @@ listview {
 element { 
     orientation: vertical; 
     padding: 1px; 
-    border-radius: 2px; 
+    border-radius: 6px; 
     background-color: transparent;
     children: [ \"element-icon\" ];
 }
