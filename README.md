@@ -1,10 +1,10 @@
 # Monodots
-Dotfiles pessoais para um rice do Hyprland simples.
+Dotfiles pessoais para um rice simples de Hyprland.
 
 ## Instalação
-> ⚠️ Essa configuração foi feita **apenas para o Arch Linux ou distribuições baseadas no Arch.**
+> ⚠️ Essa configuração foi feita **apenas para o Arch Linux ou distribuições baseadas em Arch.**
 
-**Para obter a melhor experiência, recomendo instalar o `CachyOS` sem ambiente gráfico (DE) ou o `Arch Linux` minimal usando o script `archinstall`. Essas configurações tornam a instalação muito mais fácil, sem a necessidade de muita configuração manual.**
+**Para obter a melhor experiência, recomendo instalar o `CachyOS` sem ambiente gráfico ou o `Arch Linux` minimal usando o script `archinstall`. Essas configurações tornam a instalação muito mais fácil, sem a necessidade de muita configuração manual.**
 
 Instale as dependências:
 
@@ -15,8 +15,8 @@ sudo pacman -S --needed git base-devel
 Clone o repositório:
 
 ```bash
-git clone https://github.com/Arch-Pitt/Monodots.git`  
-`cd Monodots`
+git clone https://github.com/Arch-Pitt/Monodots.git 
+cd Monodots
 ```
 
 Torne o instalador executável e execute-o:
