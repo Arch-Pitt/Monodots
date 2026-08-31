@@ -8,9 +8,10 @@ LOGOUT=""
 ROFI_THEME="
 window {
     anchor: center; 
-    location: center;
-    width: 500px;
-    border-radius: 12px;
+    location: south;
+    width: 40%;
+    y-offset: 1px;
+    border-radius: 12px 12px 0px 0px;
     border: 1px solid;
     padding: 12px;
 }
@@ -32,7 +33,7 @@ listview {
 element { 
     orientation: horizontal;
     padding: 20px 0px;
-    border-radius: 4px; 
+    border-radius: 6px; 
     background-color: transparent;
     text-color: #FFFFFFFF;
     children: [ \"element-text\" ]; 
