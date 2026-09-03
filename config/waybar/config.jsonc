@@ -1,12 +1,12 @@
 {
-    "height": 28,
+    "height": 30,
     "spacing": 2,
     "position": "top",
 
     "margin-top": 0,
     "margin-bottom": 0,
-    "margin-left": 16,
-    "margin-right": 16,
+    "margin-left": 0,
+    "margin-right": 0,
 
     "modules-left": [
         "clock",
@@ -65,7 +65,7 @@
     "backlight": {
         "format": "󰃠",
         "tooltip": true,
-        "tooltip-format": "{percent}%",
+        "tooltip-format": "{percent}% 󰃠",
         "on-click": "killall hyprsunset || hyprsunset"
     },
 
@@ -85,7 +85,7 @@
             ""
         ],
         "tooltip": true,
-        "tooltip-format": "{capacity}%",
+        "tooltip-format": "{capacity}% ",
         "on-click": ""
     },
     
@@ -94,9 +94,9 @@
         "format-ethernet": "󰈀",
         "format-disconnected": "⚠",
         "tooltip": true,
-        "tooltip-format-wifi": "Network: {essid} ({signalStrength}%)",
-        "tooltip-format-ethernet": "Connected (Ethernet)",
-        "tooltip-format-disconnected": "Disconnected",
+        "tooltip-format-wifi": "Network: {essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "Connected (Ethernet) 󰈀",
+        "tooltip-format-disconnected": "Disconnected ⚠",
         "on-click": "nm-connection-editor"
     },
     
@@ -112,7 +112,7 @@
             ]
         },
         "tooltip": true,
-        "tooltip-format": "{volume}%",
+        "tooltip-format": "{volume}% ",
         "on-click": "pavucontrol"
     },
 

@@ -15,7 +15,7 @@ window {
     anchor: center;
     y-offset: 1px;
     width: 700px;
-    border-radius: 12px; 
+    border-radius: 16px; 
     background-color: rgba(10, 10, 10, 1); 
     border-color: rgba(255, 255, 255, 0.08);
     border: 1px solid;
@@ -34,7 +34,7 @@ inputbar {
     spacing: 12px;
     background-color: rgba(255, 255, 255, 0.04);
     text-color: #ffffff;
-    border-radius: 4px;
+    border-radius: 100px;
     children: ["prompt", "entry"];
     padding: 10px 18px;
 }

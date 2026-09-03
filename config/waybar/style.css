@@ -13,7 +13,7 @@ window#waybar {
 window#waybar > box {
     background: rgba(10, 10, 10, 1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 0 0 16px 16px;
+    border-radius: 0px;
     color: #ffffff;
 }
 
@@ -85,7 +85,7 @@ window#waybar > box {
 #clock {
     background: rgba(255, 255, 255, 0.05);
     color: #ffffff;
-    border-radius: 2px 4px 4px 12px;
+    border-radius: 4px 12px 12px 4px;
     padding: 0 8px;
     margin: 2px 3px;
     font-weight: bold;
@@ -100,7 +100,7 @@ window#waybar > box {
 #custom-power {
     background: rgba(255, 255, 255, 0.05);
     color: #ffffff;
-    border-radius: 4px 2px 12px 4px;
+    border-radius: 12px 4px 4px 12px;
     padding: 0 12px;
     margin: 2px 3px;
     font-weight: bold;
@@ -118,12 +118,6 @@ button:hover,
 #custom-power:hover {
     background: rgba(255, 255, 255, 0.12);
     color: #ffffff;
-}
-
-@keyframes blink {
-    0%   { color: #ffffff; background: rgba(255, 255, 255, 0.1); }
-    50%  { color: #000000; background: #ffffff; }
-    100% { color: #ffffff; background: rgba(255, 255, 255, 0.1); }
 }
 
 #battery.charging {
@@ -154,3 +148,10 @@ tooltip label {
     color: #ffffff;
     padding: 4px;
 }
+
+@keyframes blink {
+    0%   { color: #ffffff; background: rgba(255, 255, 255, 0.1); }
+    50%  { color: #000000; background: #ffffff; }
+    100% { color: #ffffff; background: rgba(255, 255, 255, 0.1); }
+}
+
