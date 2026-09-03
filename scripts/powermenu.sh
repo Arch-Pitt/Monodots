@@ -11,7 +11,7 @@ window {
     location: south;
     width: 40%;
     y-offset: 1px;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 16px 16px 0px 0px;
     border: 1px solid;
     padding: 12px;
 }
@@ -33,7 +33,7 @@ listview {
 element { 
     orientation: horizontal;
     padding: 20px 0px;
-    border-radius: 6px; 
+    border-radius: 10px; 
     background-color: transparent;
     text-color: #FFFFFFFF;
     children: [ \"element-text\" ]; 
