@@ -9,7 +9,7 @@
   "layer-shell-cover-screen": true,
 
   "positionX": "right",
-  "positionY": "center",
+  "positionY": "top",
   "fit-to-screen": true,
   "control-center-width": 380,
   "control-center-height": 550,
@@ -18,7 +18,7 @@
   "control-center-margin-top": 8,
   "control-center-margin-bottom": 8,
   "control-center-margin-left": 8,
-  "control-center-margin-right": 8,
+  "control-center-margin-right": 0,
 
   "transition-time": 200,
   "timeout": 5,

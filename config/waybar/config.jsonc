@@ -9,7 +9,7 @@
     "margin-right": 0,
 
     "modules-left": [
-        "clock",
+        "custom/power",
         "custom/separator",
         "hyprland/window"
     ],
@@ -24,7 +24,7 @@
         "custom/notify",
         "battery",
         "custom/separator",
-        "custom/power"
+        "clock"
     ],
 
     "hyprland/workspaces": {
@@ -117,7 +117,7 @@
     },
 
     "custom/power": {
-        "format": "Power - ⏻",
+        "format": "⏻ - Power",
         "tooltip": true,
         "tooltip-format": "Power Menu (Battery: {capacity}%)",
         "on-click": "sh .scripts/powermenu.sh"

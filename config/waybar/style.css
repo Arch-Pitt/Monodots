@@ -42,12 +42,12 @@ window#waybar > box {
 #workspaces {
     background: transparent;
     margin: 2px 4px;
-    padding: 2px;
+    padding: 3px;
     border-radius: 10px;
 }
 
 #workspaces button {
-    padding: 0 12px;
+    padding: 0 11px;
     margin: 0 3px;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.1);
@@ -85,10 +85,10 @@ window#waybar > box {
 #clock {
     background: rgba(255, 255, 255, 0.05);
     color: #ffffff;
-    border-radius: 4px 12px 12px 4px;
+    border-radius: 12px 4px 4px 12px;
     padding: 0 8px;
     margin: 2px 3px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #tray {
@@ -100,10 +100,10 @@ window#waybar > box {
 #custom-power {
     background: rgba(255, 255, 255, 0.05);
     color: #ffffff;
-    border-radius: 12px 4px 4px 12px;
+    border-radius: 4px 12px 12px 4px;
     padding: 0 12px;
     margin: 2px 3px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 button:hover,
@@ -154,4 +154,3 @@ tooltip label {
     50%  { color: #000000; background: #ffffff; }
     100% { color: #ffffff; background: rgba(255, 255, 255, 0.1); }
 }
-

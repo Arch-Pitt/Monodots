@@ -8,10 +8,10 @@ LOGOUT=""
 ROFI_THEME="
 window {
     anchor: center; 
-    location: south;
-    width: 40%;
-    y-offset: 1px;
-    border-radius: 16px 16px 0px 0px;
+    location: west;
+    width: 10%;
+    x-offset: -4px;
+    border-radius: 0px 16px 16px 0px;
     border: 1px solid;
     padding: 12px;
 }
@@ -22,8 +22,8 @@ mainbox {
 }
 
 listview { 
-    columns: 4; 
-    lines: 1; 
+    columns: 1; 
+    lines: 4; 
     spacing: 10px; 
     fixed-columns: true;
     fixed-height: true;
@@ -32,8 +32,8 @@ listview {
 
 element { 
     orientation: horizontal;
-    padding: 20px 0px;
-    border-radius: 10px; 
+    padding: 25px 0px;
+    border-radius: 8px; 
     background-color: transparent;
     text-color: #FFFFFFFF;
     children: [ \"element-text\" ]; 
