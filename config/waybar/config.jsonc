@@ -86,7 +86,7 @@
         ],
         "tooltip": true,
         "tooltip-format": "{capacity}% ",
-        "on-click": ""
+        "on-click": "sh .scripts/profileselector.sh"
     },
     
     "network": {

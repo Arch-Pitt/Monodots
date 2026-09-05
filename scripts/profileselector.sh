@@ -1,17 +1,16 @@
 #!/bin/bash
 
-POWEROFF="⏻"
-REBOOT=""
-LOCK=""
-LOGOUT=""
+PERFORMANCE=""   
+BALANCED=""      
+POWERSAVER=""    
 
 ROFI_THEME="
 window {
     anchor: center; 
-    location: west;
+    location: east;
     width: 110px;
-    x-offset: -4px;
-    border-radius: 0px 16px 16px 0px;
+    x-offset: 4px;
+    border-radius: 16px 0px 0px 16px;
     border: 1px solid;
     padding: 12px;
 }
@@ -19,7 +18,7 @@ window {
 mainbox { children: [ \"listview\" ]; }
 
 listview { 
-    lines: 4; 
+    lines: 3; 
     spacing: 10px; 
 }
 
@@ -43,11 +42,10 @@ element-text {
 }
 "
 
-CHOICE=$(printf "%s\n%s\n%s\n%s" "$POWEROFF" "$REBOOT" "$LOCK" "$LOGOUT" | rofi -dmenu -i -theme-str "$ROFI_THEME")
+CHOICE=$(printf "%s\n%s\n%s" "$PERFORMANCE" "$BALANCED" "$POWERSAVER" | rofi -dmenu -i -theme-str "$ROFI_THEME")
 
 case "$CHOICE" in
-    "$POWEROFF") systemctl poweroff ;;
-    "$REBOOT")   systemctl reboot ;;
-    "$LOCK")     hyprlock ;;
-    "$LOGOUT")   killall Hyprland ;;
+    "$PERFORMANCE") powerprofilesctl set performance ;;
+    "$BALANCED")    powerprofilesctl set balanced ;;
+    "$POWERSAVER")  powerprofilesctl set power-saver ;;
 esac

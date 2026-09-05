@@ -44,7 +44,7 @@ Após a instalação, existem alguns passos manuais para deixar tudo funcionando
 * **Torne os scripts customizados executáveis:** Isso é necessário para que o menu de desligamento e o seletor de papéis de parede funcionem.
 
   ```bash
-  chmod +x .scripts/cleaner.sh .scripts/powermenu.sh .scripts/wallpicker.sh
+  chmod +x .scripts/cleaner.sh .scripts/powermenu.sh .scripts/wallpicker.sh .scripts/profileselector.sh
   ```
 
 * **Instale os Drivers de GPU:** Para obter o melhor desempenho e evitar falhas visuais, certifique-se de ter os drivers de vídeo corretos instalados para o seu sistema.
@@ -68,6 +68,7 @@ Após a instalação, existem alguns passos manuais para deixar tudo funcionando
 ![Rofi](/previews/rofi.png)
 ![Wallpicker](/previews/wallpicker.png)
 ![Powermenu](/previews/powermenu.png)
+![Profileselector](/previews/profileselector.png)
 ![Swaync](/previews/swaync.png)
 ![GTK/Terminal](/previews/gtkandterminal.png)
 
