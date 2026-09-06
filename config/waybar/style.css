@@ -76,7 +76,7 @@ window#waybar > box {
 #tray {
     color: #ffffff;
     background: transparent;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 0 6px;
     margin: 2px 2px;
     transition: all 0.2s ease;
