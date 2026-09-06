@@ -86,6 +86,7 @@ Após a instalação, existem alguns passos manuais para deixar tudo funcionando
 | SUPER + N | Central de notificações |
 | SUPER + H | Alternar exibição da waybar |
 | SUPER + SHIFT + W | Seletor de papéis de parede |
+| SUPER + SHIFT + E | Seletor de plano de energia |
 | SUPER + SHIFT + S | Captura de tela (região) |
 | Printscreen | Captura de tela (tela cheia) |
 | Mutar Áudio | Alternar mudo |
