@@ -1,32 +1,39 @@
 # Monodots
-Dotfiles pessoais para um rice simples de Hyprland.
+
+![Desktop](/previews/desktop.png)
+![Rofi](/previews/rofi.png)
+![Wallpicker](/previews/wallpicker.png)
+![Powermenu](/previews/powermenu.png)
+![Profileselector](/previews/profileselector.png)
+![Swaync](/previews/swaync.png)
+![GTK/Terminal](/previews/gtkandterminal.png)
 
 ## Instalação
-> ⚠️ Essa configuração foi feita **apenas para o Arch Linux ou distribuições baseadas em Arch.**
+> ⚠️ Essa configuração foi feita **apenas para distribuições baseadas no Arch Linux.**
 
-**Para obter a melhor experiência, recomendo instalar o `CachyOS` sem ambiente gráfico ou o `Arch Linux` minimal usando o script `archinstall`. Essas configurações tornam a instalação muito mais fácil, sem a necessidade de muita configuração manual.**
+**Para obter a melhor experiência de instalação, recomendo instalar o `CachyOS` sem ambiente gráfico ou o `Arch Linux` minimal usando o script `archinstall`. Essas configurações tornam a instalação muito mais fácil, sem a necessidade de muita configuração manual.**
 
-Instale as dependências:
+1 - Instale as dependências:
 
 ```bash
 sudo pacman -S --needed git base-devel
 ```
 
-Clone o repositório:
+2 - Clone o repositório:
 
 ```bash
 git clone https://github.com/Arch-Pitt/Monodots.git 
 cd Monodots
 ```
 
-Torne o instalador executável e execute-o:
+3 - Torne o instalador executável e execute-o:
 
 ```bash 
 chmod +x install.sh  
 ./install.sh
 ```
 
-E finalmente, reinicie o sistema:
+4 - E finalmente, reinicie o sistema:
 
 ```bash
 sudo reboot
@@ -35,13 +42,13 @@ sudo reboot
 ## Pós-Instalação
 Após a instalação, existem alguns passos manuais para deixar tudo funcionando corretamente:
 
-* **Defina o layout do seu teclado:** Você precisa configurar o layout do teclado no arquivo de configuração do Hyprland para garantir que consiga digitar corretamente.
+* **Defina o layout do seu teclado:** Por padrão o layout vem no estilo Norte Americano, então você precisa configurar o layout do seu teclado no arquivo de configuração do Hyprland para garantir que consiga digitar corretamente.
    * Abra e edite o seguinte arquivo: `~/.config/hypr/modules/input.lua`
 
-* **Configure seus monitores:** Você precisa definir a resolução, a taxa de atualização e o posicionamento dos seus próprios monitores.
+* **Configure seus monitores:** Você precisa definir a resolução, a taxa de atualização e o posicionamento dos seus monitores.
    * Abra e edite o seguinte arquivo: `~/.config/hypr/modules/monitors.lua`
 
-* **Torne os scripts customizados executáveis:** Isso é necessário para que o menu de desligamento e o seletor de papéis de parede funcionem.
+* **Torne os scripts customizados executáveis:** Isso é necessário para que o menu de desligamento e o seletor de papéis de parede e outras funções funcionem corretamente.
 
   ```bash
   chmod +x .scripts/cleaner.sh .scripts/powermenu.sh .scripts/wallpicker.sh .scripts/profileselector.sh
@@ -52,25 +59,6 @@ Após a instalação, existem alguns passos manuais para deixar tudo funcionando
 * **Instale o Microcode do Processador:** Para melhorar a estabilidade e corrigir problemas conhecidos de CPU, certifique-se de que as atualizações de microcode corretas para seu processador estejam instaladas.
 
 * **Defina os Temas do GTK e de Ícones:** Aplique o visual de sua preferência usando um aplicativo de configurações do GTK.
-
-## Recursos
-* **Kitty**, **Waybar**, **Rofi** e **Swaync** pré-configurados.
-* **Fish shell** para um terminal mais rápido.
-* Tela de bloqueio com o **Hyprlock**.
-* Configuração básica de firewall e rede com **UFW** e **NetworkManager**.
-* **Gamemode** para melhor desempenho durante sessões de jogos.
-* Script de limpeza (**Cleaner**) personalizado.
-* Gerenciador de papéis de parede com o **Wallpicker**.
-* Tema GTK **Orchis Grey Dark** e tema de ícones **Papirus** para uma interface limpa.
-
-## Pré-visualização
-![Desktop](/previews/desktop.png)
-![Rofi](/previews/rofi.png)
-![Wallpicker](/previews/wallpicker.png)
-![Powermenu](/previews/powermenu.png)
-![Profileselector](/previews/profileselector.png)
-![Swaync](/previews/swaync.png)
-![GTK/Terminal](/previews/gtkandterminal.png)
 
 ## Atalhos de Teclado
 > Modificador principal: `SUPER` (Tecla Windows)
