@@ -135,6 +135,4 @@ sudo systemctl enable sddm
 
 systemctl --user daemon-reexec
 
-awww img ~/Pictures/Wallpapers/Monowaves.png
-
 echo "Dependencies are installed. Please follow the post-installation steps to complete the setup"
