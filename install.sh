@@ -65,7 +65,6 @@ sudo pacman -S --needed --noconfirm \
 echo "Installing system and network tools"
 sudo pacman -S --needed --noconfirm \
     networkmanager \
-    network-manager-applet \
     ufw \
     gvfs \
     gvfs-mtp \
