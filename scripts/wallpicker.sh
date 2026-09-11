@@ -12,7 +12,7 @@ ROFI_THEME="
 window {
     location: south;
     anchor: center; 
-    y-offset: 1px;
+    y-offset: 8px;
     width: 70%; 
     height: 45%; 
     border-radius: 8px 8px 0px 0px; 

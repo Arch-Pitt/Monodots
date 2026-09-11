@@ -1,12 +1,12 @@
 # Monodots
 
 ![Desktop](/previews/desktop.png)
+![GTK/Terminal](/previews/gtkandterminal.png)
 ![Rofi](/previews/rofi.png)
 ![Wallpicker](/previews/wallpicker.png)
 ![Powermenu](/previews/powermenu.png)
 ![Profileselector](/previews/profileselector.png)
 ![Swaync](/previews/swaync.png)
-![GTK/Terminal](/previews/gtkandterminal.png)
 
 ## Instalação
 > ⚠️ Essa configuração foi feita **apenas para distribuições baseadas no Arch Linux.**

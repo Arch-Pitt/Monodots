@@ -8,10 +8,10 @@ LOGOUT=""
 ROFI_THEME="
 window {
     anchor: center; 
-    location: east;
-    width: 110px;
-    x-offset: 4px;
-    border-radius: 8px 0px 0px 8px;
+    location: south;
+    width: 500px;
+    y-offset: 4px;
+    border-radius: 8px 8px 0px 0px;
     border: 1px solid;
     padding: 12px;
 }
@@ -19,12 +19,13 @@ window {
 mainbox { children: [ \"listview\" ]; }
 
 listview { 
-    lines: 4; 
+    columns: 4;
+    lines: 1; 
     spacing: 10px; 
 }
 
 element { 
-    padding: 25px 0px;
+    padding: 15px 0px;
     border-radius: 6px; 
     text-color: #FFFFFFFF;
     children: [ \"element-text\" ]; 
