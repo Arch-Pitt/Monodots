@@ -9,12 +9,12 @@
     "margin-right": 0,
 
     "modules-left": [
-        "custom/power",
+        "hyprland/workspaces",
         "custom/separator",
         "hyprland/window"
     ],
     "modules-center": [
-        "hyprland/workspaces"
+        
     ],
     "modules-right": [
         "tray",
@@ -23,21 +23,25 @@
         "backlight",
         "custom/notify",
         "battery",
+        "custom/power",
         "custom/separator",
         "clock"
     ],
 
     "hyprland/workspaces": {
-        "disable-scroll": true,
-        "all-outputs": true,
+        "format": "<span size='larger'>{icon}</span>",
         "on-click": "activate",
-        "format": "{icon}",
         "format-icons": {
-            "active": "",
-            "default": ""
+            "active": "\uf444",
+            "default": "\uf4c3"
         },
+        "icon-size": 10,
+        "sort-by-number": true,
         "persistent-workspaces": {
-            "*": 4
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": []
         }
     },
 
@@ -117,7 +121,7 @@
     },
 
     "custom/power": {
-        "format": "⏻ - Power",
+        "format": "⏻",
         "tooltip": true,
         "tooltip-format": "Power Menu (Battery: {capacity}%)",
         "on-click": "sh .scripts/powermenu.sh"

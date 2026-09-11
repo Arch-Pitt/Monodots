@@ -10,7 +10,7 @@ window {
     location: east;
     width: 110px;
     x-offset: 4px;
-    border-radius: 16px 0px 0px 16px;
+    border-radius: 8px 0px 0px 8px;
     border: 1px solid;
     padding: 12px;
 }
@@ -24,7 +24,7 @@ listview {
 
 element { 
     padding: 25px 0px;
-    border-radius: 12px; 
+    border-radius: 6px; 
     text-color: #FFFFFFFF;
     children: [ \"element-text\" ]; 
 }

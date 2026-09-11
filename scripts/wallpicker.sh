@@ -15,7 +15,7 @@ window {
     y-offset: 1px;
     width: 70%; 
     height: 45%; 
-    border-radius: 16px 16px 0px 0px; 
+    border-radius: 8px 8px 0px 0px; 
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.08);
     background-color: rgba(10, 10, 10, 1);
@@ -32,7 +32,7 @@ inputbar {
     spacing: 12px;
     background-color: rgba(255, 255, 255, 0.04);
     text-color: #ffffff;
-    border-radius: 100px;
+    border-radius: 8px;
     children: [ \"prompt\", \"entry\" ];
     padding: 10px 18px;
 }
@@ -63,7 +63,7 @@ listview {
 element { 
     orientation: vertical; 
     padding: 1px 6px; 
-    border-radius: 10px; 
+    border-radius: 6px; 
     background-color: transparent;
     children: [ \"element-icon\" ];
 }
