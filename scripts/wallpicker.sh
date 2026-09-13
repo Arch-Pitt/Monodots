@@ -19,7 +19,7 @@ window {
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.08);
     background-color: rgba(10, 10, 10, 1);
-    padding: 18px;
+    padding: 14px;
 }
 
 mainbox {
@@ -63,7 +63,7 @@ listview {
 element { 
     orientation: vertical; 
     padding: 1px 6px; 
-    border-radius: 2px; 
+    border-radius: 4px; 
     background-color: transparent;
     children: [ \"element-icon\" ];
 }
