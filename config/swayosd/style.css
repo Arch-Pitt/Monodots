@@ -32,7 +32,7 @@ progressbar {
 
 progressbar trough {
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 2px;
+    border-radius: 8px;
     min-height: 8px;
     min-width: 160px;
     border: none;
