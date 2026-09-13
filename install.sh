@@ -71,7 +71,7 @@ sudo pacman -S --needed --noconfirm \
     gvfs-afc \
     usbutils \
     android-udev \
-    dosfstools
+    dosfstools 
 
 echo "Installing terminal and utilities"
 sudo pacman -S --needed --noconfirm \

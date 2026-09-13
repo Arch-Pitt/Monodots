@@ -14,12 +14,12 @@ window {
     location: center;
     anchor: center;
     y-offset: 1px;
-    width: 700px;
-    border-radius: 8px; 
+    width: 55%;
+    border-radius: 4px; 
     background-color: rgba(10, 10, 10, 1); 
     border-color: rgba(255, 255, 255, 0.08);
     border: 1px solid;
-    padding: 16px;
+    padding: 18px;
 }
 
 mainbox {
@@ -31,17 +31,19 @@ mainbox {
 }
 
 inputbar {
-    spacing: 12px;
-    background-color: rgba(255, 255, 255, 0.04);
+    height: 100px;
+    spacing: 4px;
+    background-color: rgba(255, 255, 255, 0.05);
     text-color: #ffffff;
-    border-radius: 100px;
+    border-radius: 2px;
     children: ["prompt", "entry"];
-    padding: 8px 18px;
+    padding: 7px 18px;
 }
 
 prompt {
     background-color: transparent;
     text-color: #ffffff;
+    vertical-align: 0.5; 
 }
 
 entry {
@@ -49,6 +51,7 @@ entry {
     text-color: #ffffff;
     placeholder: "Search apps...";
     placeholder-color: rgba(255, 255, 255, 0.4); 
+    vertical-align: 0.5;
 }
 
 listview {
@@ -67,7 +70,7 @@ element {
     margin: 2px 0px;
     padding: 8px 12px;
     border: 0px solid;
-    border-radius: 4px;
+    border-radius: 2px;
     background-color: transparent;
     text-color: rgba(255, 255, 255, 0.6);
 }

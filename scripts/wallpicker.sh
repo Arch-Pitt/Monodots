@@ -12,14 +12,14 @@ ROFI_THEME="
 window {
     location: south;
     anchor: center; 
-    y-offset: 8px;
+    y-offset: 24px;
     width: 70%; 
     height: 45%; 
     border-radius: 8px 8px 0px 0px; 
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.08);
     background-color: rgba(10, 10, 10, 1);
-    padding: 16px;
+    padding: 18px;
 }
 
 mainbox {
@@ -29,10 +29,10 @@ mainbox {
 }
 
 inputbar {
-    spacing: 12px;
+    spacing: 4px;
     background-color: rgba(255, 255, 255, 0.04);
     text-color: #ffffff;
-    border-radius: 100px;
+    border-radius: 4px;
     children: [ \"prompt\", \"entry\" ];
     padding: 8px 18px;
 }
@@ -63,7 +63,7 @@ listview {
 element { 
     orientation: vertical; 
     padding: 1px 6px; 
-    border-radius: 6px; 
+    border-radius: 2px; 
     background-color: transparent;
     children: [ \"element-icon\" ];
 }
