@@ -9,6 +9,7 @@
     "margin-right": 0,
 
     "modules-left": [
+        "custom/icon",
         "hyprland/workspaces",
         "custom/separator",
         "hyprland/window"
@@ -90,7 +91,7 @@
         ],
         "tooltip": true,
         "tooltip-format": "{capacity}% ",
-        "on-click": "sh .scripts/profileselector.sh"
+        "on-click": ""
     },
     
     "network": {
@@ -131,6 +132,11 @@
         "format": "",
         "tooltip": false,
         "on-click": "swaync-client -t"
+    },
+
+    "custom/icon": {
+        "format": "",
+        "tooltip": false
     },
 
     "custom/separator": {

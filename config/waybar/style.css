@@ -63,6 +63,7 @@ window#waybar > box {
 }
 
 #custom-power,
+#custom-icon,
 #custom-notify,
 #battery,
 #network,
