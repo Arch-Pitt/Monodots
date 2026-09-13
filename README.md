@@ -1,8 +1,7 @@
 # Monodots
+> Dotfiles que utilizo no meu dia a dia, otimizado para produtividade, desempenho e estética minimalista.
 
 ## Instalação
-> ⚠️ Essa configuração foi feita **apenas para distribuições baseadas no Arch Linux.**
-
 **Para obter a melhor experiência de instalação, recomendo instalar o `CachyOS` sem ambiente gráfico ou o `Arch Linux` minimal usando o script `archinstall`. Essas configurações tornam a instalação muito mais fácil, sem a necessidade de muita configuração manual.**
 
 1 - Instale as dependências:

@@ -132,7 +132,7 @@ blankwindow,
 .notification-row .notification-background .notification {
   background: rgba(10, 10, 10, 1);
   border: 1px solid rgba(26, 26, 26, 1);
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 0;
   transition: background 0.15s ease-in-out;
 }
