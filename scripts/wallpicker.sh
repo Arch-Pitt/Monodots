@@ -32,7 +32,7 @@ inputbar {
     spacing: 4px;
     background-color: rgba(255, 255, 255, 0.04);
     text-color: #ffffff;
-    border-radius: 4px;
+    border-radius: 8px;
     children: [ \"prompt\", \"entry\" ];
     padding: 8px 18px;
 }
